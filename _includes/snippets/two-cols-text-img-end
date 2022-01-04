@@ -1,0 +1,23 @@
+{% assign ci-image = include.img %}
+
+{% assign extension = include.img | split: "." | last %}
+
+</div> <!-- end first cs-two-cols and start new -->
+
+<div class="cs-two-cols col-md-5 intra-padding description-small {{ text-class }}" markdown="1" style='text-align: right;'>
+
+{% if extension == 'jpg' or extension == 'jpeg' or extension == 'png' or extension == 'webp' %}
+   <img src="{{ ci-image }}" alt="{{ include.img.alt }}"/>
+{% else %}
+
+<picture>
+  <source srcset="{{ ci-image }}.webp" type="image/webp">
+  <source srcset="{{ ci-image }}.png" type="image/png">
+  <source srcset="{{ ci-image }}.jpg" type="image/jpeg">
+  <img src="{{ci-image}}.jpg" alt="{{include.img-alt}}"/>
+</picture>
+
+{% endif %}
+
+</div> <!-- end of cs-two-cols -->
+</div> <!-- end of row -->

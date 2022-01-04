@@ -1,0 +1,78 @@
+{% if include.id %}
+  {% assign gallery = page.[include.id] %}
+{% else %}
+  {% assign gallery = page.gallery %}
+{% endif %}
+
+<div class="row justify-content-center m-0 subgallery">
+
+  {% assign cntr = 0 %}
+
+  {% if page.gallery_img_size %}
+	  {% assign img_size = page.gallery_img_size %}
+  {% else %}
+	  {% assign img_size = "128px" %}
+  {% endif %}
+
+  {% for person in gallery %}
+
+  {% if person.enable == false %}
+
+  {% else %}
+
+  <div class="col-xs-10 col-sm-5 col-md-4 col-lg-3 forget-box">
+    <div class="center text-center">
+      <p><img class="img-responsive img-thumbnail rounded-circle" style="margin: 1rem" src="{{ BASE_PATH}}/images/team/{{ person.image }}" width="{{ img_size }}" height="{{ img_size }}" alt="{{ person.name }}"></p>
+	  <p class='subtitle-bold'>{{ person.name }}</p>
+	  <p class='subtitle-bold'><small class="designation muted"> {{ person.title}}{{ person.affiliation}}</small></p>
+	  {% if person.linkedin %}
+		<a class="btn btn-social-icon btn-linkedin" href="http://nl.linkedin.com/in/{{ person.linkedin }}/"><i class="el el-linkedin"></i></a>
+	  {% endif %}
+	  {% if person.twitter %}
+		<a class="btn btn-social-icon btn-twitter" href="https://twitter.com/{{ person.twitter }}"><i class="el el-twitter"></i></a> 
+	  {% endif %}
+	  {% if person.googleplus %}
+		<a class="btn btn-social-icon btn-googleplus" href="https://plus.google.com/{{ person.googleplus }}"><i class="el el-googleplus"></i></a>
+	  {% endif %}
+	  {% if person.github %}
+		<a class="btn btn-social-icon btn-github" href="https://github.com/{{ person.github }}"><i class="el el-github"></i></a>
+	  {% endif %}
+	  {% if person.website %}
+		<a class="btn btn-social-icon btn-home" href="http://{{ person.website }}"><i class="el el-home"></i></a>
+	  {% endif %}
+	  {% if person.vimeo %}
+		<a class="btn btn-social-icon btn-vimeo" href="https://vimeo.com/{{ person.vimeo }}"><i class="el el-vimeo"></i></a>
+	  {% endif %}
+	  {% if person.report %}
+	  <p>
+	  {% if person.report.award %}
+		  <a href="{{ person.report.award }}"><i class="el el-idea"></i></a>
+	  {% endif %}
+	  {{ person.report.title }} {% if person.report.url %}(<a href="{{ BASE_PATH }}/attachments/{{ person.report.url }}">pdf</a>){% endif %} {% if person.report.movie %}(<a href="{{ person.report.movie }}">movie</a>){% endif %}
+	  {% if person.report.link %}<a href="http://{{person.report.link}}">{{ person.report.link-text }}</a>{% endif %}
+
+	  {% if person.articles %}
+      (papers
+      {% for article in person.articles %}
+      <a href="{{article.url}}">{{article.ref}}</a>
+      {% endfor %}
+       )
+      {% endif %}
+	  </p>
+	  {% endif %}
+    </div>	
+  </div>
+  {% assign cntr = cntr | plus: 1 %}
+
+  {% assign two_items = cntr | modulo: 2 %}
+  {% assign four_items = cntr | modulo: 4 %}
+  {% if four_items == 0 %}
+  <div class="clearfix visible-xl-block"></div>
+  {% elsif two_items == 0 %}
+  <div class="clearfix visible-sm-block"></div>
+  {% endif %}
+  
+  {% endif %}
+
+  {% endfor %}
+</div>

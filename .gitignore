@@ -1,0 +1,38 @@
+# The generated files do not need to be on github
+_site/*
+_theme_packages/*
+.bundle/*
+.sass-cache/
+
+serve
+scripts
+
+Thumbs.db
+.DS_Store
+
+!.gitkeep
+
+.rbenv-version
+.rvmrc
+
+.env
+.jekyll-cache
+
+assets/resized
+
+attachments/hogeschool_rotterdam
+
+.idea/*
+
+/*.sh
+
+# package-lock.json
+
+# Have npm packages in local node_modules
+node_modules
+
+# Will be generated
+assets/themes/flat/js/bundle.js
+
+# Store gems in local vendor folder
+vendor

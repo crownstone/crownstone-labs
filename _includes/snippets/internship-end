@@ -1,0 +1,47 @@
+{% if include.taken and include.taken == 'true'%}
+<div class="forget-button">
+<a href="{{ include.pdf-link }}" class="btn btn-std" style="text-align: center !important; align-self: flex-end; border-radius: 0.25rem; padding: .375rem 1.25rem; font-family: Lato, sans-serif; font-size: 1rem; letter-spacing: 1px; color: white !important; background-color: #ff8400; box-shadow: 3px 3px 4px rgb(0 0 0 / 16%); text-decoration: none">Taken</a>
+</div>
+</div>
+</div>
+{% else %}
+</div>
+
+<div class="row align-items-end" style="margin: 1.5rem 0 0 0 !important; padding: 0 !important;">
+
+<div class="row justify-content-start" style="margin: 0 !important; padding: 0 1.5rem !important;">
+<div class="col-1">
+<div class="row justify-content-center align-items-center" style="margin: 0 !important">
+<img src="/images/doc-icon.svg" alt="doc-icon" style='width: 100%; min-width: 30px'>
+</div>
+</div>
+
+<div class="col-10" style="padding: 0 0 0 1rem !important" >
+<div class="row justify-content-start align-items-end" style="margin: 0 !important">
+<a href= "{{ include.pdf-link }}" style="text-align: left; font-family: Lato, sans-serif; font-style: normal !important; font-size: 1rem !important; color: #003e52 !important; padding: 0;">
+Read more about this project
+</a>
+</div>
+</div>
+</div>
+
+
+<div class="row justify-content-start" style="margin: 0 !important; padding: 0 1.5rem !important;">
+<div class="col-1">
+<div class="row justify-content-center align-items-center" style="margin: 0 !important">
+<img src="/images/email-icon.svg" alt="email-icon" style='width: 100%; min-width: 30px'>
+</div>
+</div>
+
+<div class="col-10" style="padding: 0 0 0 1rem !important" >
+<div class="row justify-content-start align-items-end" style="margin: 0 0 1.5rem 0 !important">
+<script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-team.email[0] }}", "{{ site.contact-team.email[1] }}", "{{ site.contact-team.email[2] }}", "{{ site.contact-team.email[3] }}", "{{ site.contact-team.email[4] }}", "{{ site.contact-team.email[5] }}");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Internship at Crownstone' style=\"text-align: left; font-family: Lato, sans-serif; font-style: normal !important; font-size: 1rem !important; color: #003e52 !important; padding: 0;\">Interested? Contact us!</a>");/*]]>*/</script>
+<noscript>Interested? Contact us!</noscript>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+{% endif %}

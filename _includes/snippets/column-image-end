@@ -1,0 +1,9 @@
+{% if ci-align == "right" %}
+</div>
+<div class="d-none d-md-block col-md-6 col-sm-12">
+  <img class="img-responsive img-rounded usecase" src="{{ ci-image }}" style="{{ ci-style }}" />
+</div>
+{% else %}
+</div>
+{% endif %}
+<!-- image col -->

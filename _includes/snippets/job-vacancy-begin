@@ -1,0 +1,18 @@
+{% assign ci-image = include.img %}
+
+<div class="col-lg-4 faq-topics" id="{{include.img-alt}}" style="padding: 0 !important" >
+<div class="row justify-content-center" style="margin: 0 !important">
+<picture>
+  <source srcset="{{ ci-image }}.webp" type="image/webp">
+  <source srcset="{{ ci-image }}.jpg" type="image/jpeg">
+  <img src="{{ ci-image }}.jpg" alt="{{include.img-alt}}" class="img-vacancy">
+</picture>
+</div>
+
+<div class="row justify-content-center" style="margin: 0 !important">
+<p style="text-align: left; font-family: Lato, sans-serif; font-style: normal !important; font-size: 1.5rem !important; color: #003e52 !important; padding: 0 1.5rem !important; width: 100%">
+{{ include.title }}
+</p>
+</div>
+
+<div class="row justify-content-start" style="margin: 0 !important; padding: 0 1.5rem !important;" markdown="1">

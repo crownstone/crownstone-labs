@@ -1,0 +1,18 @@
+{% if include.background and include.background == 'blue' %}
+    {% assign background-class = 'blue-bg' %}
+    {% assign text-class = 'white-text' %}
+{% else %}
+    {% assign background-class = '' %}
+    {% assign text-class = 'blue-text' %}
+{% endif %}
+
+{% if include.text-alignment and include.text-alignment == 'right' %}
+    {% assign flex-row-alignment = 'flex-row-reverse' %}
+{% else %}
+    {% assign flex-row-alignment = '' %}
+{% endif %}
+
+<div class="row justify-content-center align-items-center m-0 intra-padding {{ flex-row-alignment }} {{ background-class }}" style='{{ include.extra-style }}'>
+
+<div class="cs-two-cols col-md-5 intra-padding description-small {{ text-class }}" markdown="1" style='text-align: left;'>
+

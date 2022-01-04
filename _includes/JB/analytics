@@ -1,0 +1,8 @@
+{% if site.JB.analytics.provider and page.JB.analytics != false %}
+
+{% for provider in site.JB.analytics.provider %}
+	{% assign analytics-path = "JB/analytics-providers/" | append: provider %}
+	{% include {{analytics-path}} %}
+{% endfor %}
+
+{% endif %}
