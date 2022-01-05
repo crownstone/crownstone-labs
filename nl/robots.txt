@@ -1,0 +1,9 @@
+User-agent: *
+
+Disallow: /error/
+Disallow: /scripts/
+Disallow: /js/
+Disallow: /mail
+Disallow: 404.html
+
+Sitemap: https://crownstone-labs.com/sitemap.txt
