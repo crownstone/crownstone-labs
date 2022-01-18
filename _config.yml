@@ -9,7 +9,7 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "
 
  #highlighter: rouge
 
-languages: ["en", "nl"]
+languages: ["en"]
 default_lang: "en"
 exclude_from_localization: ["javascript", "images", "css", "scripts", "nl/attachments/brochures/*"]
 parallel_localization: true
