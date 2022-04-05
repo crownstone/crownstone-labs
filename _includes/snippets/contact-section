@@ -3,7 +3,7 @@
         <div class="col-md-7">
             <div class="row justify-content-center">
                 <p class="newsletter-text">
-                    If you are running into an interesting problem and you are looking for experts, contact us! Especially, if it is new tech, we will be all ears!
+                    {{ include.text }}
                 </p>
             </div>
             <div class="row justify-content-center">

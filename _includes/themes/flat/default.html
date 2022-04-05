@@ -26,7 +26,7 @@
 
     <meta name="keywords" content="{{ page_keywords }}">
     <meta name="author" content="{{ site.author.name }}">
-    <link rel="icon" type="image/x-icon" href="{{ site.production_url }}/images/favicon.ico?">
+    <link rel="icon" type="image/x-icon" href="{{ site.production_url }}/images/favicon.ico">
     <link rel="apple-touch-icon" href="{{ site.production_url }}/images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="{{ site.production_url }}/images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="{{ site.production_url }}/images/apple-touch-icon-114x114.png">
@@ -152,6 +152,20 @@
                 <div class="row">
                     <div class="col-sm-4 text-center">
                         <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            OEM
+                        </p>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled">
+                                {% strip %}
+                                {% assign pages_list = site.pages | sort:"name" %}
+                                {% assign group = 'navigation-oem-footer' %}
+                                {% include JB/pages_list %}
+                                {% endstrip %}
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
                             ABOUT US
                         </p>
                         <div style="display:inline-block;">
@@ -159,21 +173,6 @@
                                 {% strip %}
                                 {% assign pages_list = site.pages | sort:"name" %}
                                 {% assign group = 'navigation-about-us-footer' %}
-                                {% include JB/pages_list %}
-                                {% endstrip %}
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 text-center">
-                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
-                            NEWS
-                        </p>
-                        <div style="display:inline-block;">
-                            <ul class="list-unstyled">
-                                {% strip %}
-                                {% assign pages_list = site.pages | sort:"name" %}
-                                {% assign group = 'navigation-action-footer' %}
                                 {% include JB/pages_list %}
                                 {% endstrip %}
                             </ul>

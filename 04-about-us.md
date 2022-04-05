@@ -4,6 +4,8 @@ title: Vision
 header: Pages
 description: "Crownstone Labs. Accelerate your R&D by experts in smart home products."
 keywords: "Crownstone Labs, vision"
+background-image: about-us
+banner-caption: What we believe in...
 kramdown:
   parse_block_html: true
 group: [navigation-about-us-submenu, navigation-about-us-footer]
@@ -58,7 +60,7 @@ Our background
 {% include snippets/column-begin colsize="12" %}
 
 Crownstone Labs is the R&D organisation behind Crownstone.
-More about Crownstone itself can be found at <https://crownstone.rocks>.
+More about Crownstone itself can be found in our company [website](https://crownstone.rocks).
 
 {% include snippets/column-end %}
 {% include snippets/row-end %}
