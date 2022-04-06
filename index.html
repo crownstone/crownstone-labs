@@ -32,19 +32,20 @@
 
     
     <title>Crownstone</title>
+    <!-- There should be a simpler way to pass images towards snippets -->
 	<!-- Twitter social card -->
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="Crownstone Labs">
 	<meta name="twitter:description" content="Crownstone Labs: R&D for IoT">
-	<meta name="twitter:image" content="https://crownstone-labs.com/images/banners/home">
+	<meta name="twitter:image" content="https://crownstone-labs.com/images/banners/home.jpeg">
 	<meta name="twitter:image:width" content="240">
 	<meta name="twitter:image:height" content="240">
     <!-- Open graph social card -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="Crownstone Labs">
     <meta property="og:url" content="https://crownstone-labs.com/">
-    <meta property="og:image" content="https://crownstone-labs.com/images/banners/home">
-    <meta property="og:image:secure_url" content="https://crownstone-labs.com/images/banners/home">
+    <meta property="og:image" content="https://crownstone-labs.com/images/banners/home.jpeg">
+    <meta property="og:image:secure_url" content="https://crownstone-labs.com/images/banners/home.jpeg">
     <meta property="og:description" content="Crownstone Labs: R&D for IoT">
     <meta property="og:site_name" content="Crownstone">
     <!-- Bootstrap as framework -->
@@ -111,43 +112,38 @@
       </div>
    </nav>
 
-
 <!-- background-image -->
-<div class="bannerContainer xl d-none d-xl-flex" style="background-image: url(/images/banners/home.jpg); background-image: -webkit-image-set(url(/images/banners/home.webp) 1x)">
+<div class="bannerContainer xl d-none d-xl-flex " style="background-image: url(/images/banners/home.jpeg); background-image: -webkit-image-set(url(/images/banners/home.webp) 1x)">
    
    <div class="banner-caption white-caption">
-   <h1>Crownstone Labs</h1>
+       <h1>Crownstone Labs</h1>
    </div>
    
 </div>
-<div class="bannerContainer lg d-none d-lg-flex d-xl-none" style="background-image: url(/images/banners/home.jpg); background-image: -webkit-image-set(url(/images/banners/home.webp) 1x)">
+<div class="bannerContainer lg d-none d-lg-flex d-xl-none" style="background-image: url(/images/banners/home.jpeg); background-image: -webkit-image-set(url(/images/banners/home.webp) 1x)">
    
    <div class="banner-caption white-caption">
-   <h1>Crownstone Labs</h1>
+       <h1>Crownstone Labs</h1>
    </div>
    
 </div>
-<div class="bannerContainer md d-none d-md-flex d-lg-none" style="background-image: url(/images/banners/home.jpg); background-image: -webkit-image-set(url(/images/banners/home.webp) 1x)">
+<div class="bannerContainer md d-none d-md-flex d-lg-none" style="background-image: url(/images/banners/home.jpeg); background-image: -webkit-image-set(url(/images/banners/home.webp) 1x)">
    
    <div class="banner-caption white-caption">
-   <h1>Crownstone Labs</h1>
+       <h1>Crownstone Labs</h1>
    </div>
    
 </div>
-<div class="bannerContainer sm d-none d-sm-flex d-md-none" style="background-image: url(/images/banners/home.jpg); background-image: -webkit-image-set(url(/images/banners/home.webp) 1x)">
+<div class="bannerContainer sm d-none d-sm-flex d-md-none" style="background-image: url(/images/banners/home.jpeg); background-image: -webkit-image-set(url(/images/banners/home.webp) 1x)">
    
    <div class="banner-caption white-caption">
-   <h1>Crownstone Labs</h1>
+       <h1>Crownstone Labs</h1>
    </div>
    
 </div>
-<div class="bannerContainer xs d-flex d-sm-none" style="background-image: url(/images/banners/home.jpg); background-image: -webkit-image-set(url(/images/banners/home.webp) 1x)">
+<div class="bannerContainer xs d-none d-xs-flex d-sm-none" style="background-image: url(/images/banners/home.jpeg); background-image: -webkit-image-set(url(/images/banners/home.webp) 1x)">
+   
 </div>
-<!-- end background-image -->
-
-
-
-
 
 
 
@@ -184,29 +180,16 @@ Crownstone Labs performs <strong>R&amp;D</strong> for IoT projects in all its as
     </div>
 </div>
 
-
-
 <div class="row justify-content-center m-0 p-0">
 
-
-
-
-
-    <div class="col-md-4 d-flex align-items-center justify-content-center p-3 pb-5">
-        
-
-        
-        <picture>
-          <source srcset="/images/iot.webp" type="image/webp" />
-          <source srcset="/images/iot.jpg" type="image/jpeg" />
-          <img src="/images/iot.jpg" alt="iot" class="" />
-        </picture>
-        
-
-        
-    </div>
-
-
+<div class="col-md-4 d-flex align-items-center justify-content-center p-3 pb-5">
+    <picture>
+      <source srcset="/images/iot.jpeg" type="image/jpeg" />
+      <source srcset="/images/iot.webp" type="image/webp" />
+      
+      <img src="/images/iot.jpeg" alt="iot" />
+    </picture>
+</div>
 
 </div>
 
@@ -527,7 +510,7 @@ Ideal Challenges
                                 
       	    <li><a href="/oem/wireless-connectivity/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Wireless connectivity</a></li>
       	    <li><a href="/oem/embedded-development/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Embedded development</a></li>
-      	    <li><a href="/oem/analog-electronics/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Analog Electronics</a></li>
+      	    <li><a href="/oem/analog-electronics/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Analog electronics</a></li>
                                 
                             </ul>
                         </div>
