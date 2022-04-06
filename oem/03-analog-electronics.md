@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Embedded development
+title: Analog Electronics
 hide_title: true
 header: Business
 description: "We are experts in miniaturization. We can pack a wide range of functions into a tiny form factory."

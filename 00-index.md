@@ -24,13 +24,13 @@ areas:
     image: /images/pcb
     link: /oem/analog-electronics/
 benefits:
-  - title: Optimize costs 
+  - title: Optimize costs
     img: /images/costs.svg
     img-alt: optimize costs
   - title: Reduce risks
     img: /images/risks.svg
     img-alt: reduce risks
-  - title: Minimize Time to Market 
+  - title: Minimize time to market
     img: /images/time.svg
     img-alt: minimize time to market
 ---
@@ -101,31 +101,24 @@ Ideal Challenges
 
 {% include snippets/two-cols-text-img-begin background="blue"%}
 
-# Connected products 
+# Connected products
 
-<p>&nbsp;</p>
-
-We are committed to make a non-connected device part of the **IoT** world by making it connected. If you are developing a new product for consumers or industrial applications and you want to make it part of a vast **ecosystem** where it can communicate with other products, to the internet or to the cloud, then we can help you with that! We are experts on **wireless connectivity technologies** such as Bluetooth Low Energy, Bluetooth Mesh, Matter, Zigbee, and many other. 
+Crownstone Labs is committed to make non-connected devices part of the Internet-of-Things (**IoT**) world by making them connected. If you are developing a new product for consumers or businesses alike, and you want to make it part of a vast **ecosystem** where it can communicate with other products, to the internet or to the cloud, we can help with that! At Crownstone Labs we have experience with wireless and wired technologies, ranging from Bluetooth Low Energy, Bluetooth Mesh, **Matter**, Zigbee, ZWave, and wired protocols. At Crownstone Labs we don't just hand over a printed circuit board (PCB) or firmware, we can make sure the device is connected over its entire lifetime, which includes serves such as **firmware updates** (DFU FOTA), **cloud** support, deployment apps.
 
 {% include snippets/two-cols-text-img-end background="blue" img='/images/connected.jpg' img-alt='wireless connectivity'%}
 
 {% include snippets/full-width-container-end %}
 
-
 {% include snippets/full-width-container-begin background="blue"%}
 
 {% include snippets/two-cols-text-img-begin text-alignment='right' background="blue" %}
 
-# Embedded IoT
+# Embedded programming
 
-<p>&nbsp;</p>
-
-Adding IoT technology as an **embedded component** of industrial OEM equipment as well as to consumer goods has increased among OEMs. Our experts in embedded technologies can help you to develop the **firmware** for your device, specially when your problems are truly tough. We continuously work on challenges presented when **embedded software development** meets the IoT such as reliability, stability, safety and security.
+Crownstone Labs has in-depth knowledge on **embedded programming** on a diverse set of microcontrollers, from bare-metal programming, real-time operating systems, encrypted bootloaders, radio stacks, to pattern recognition. Our experts can develop the **firmware** for your device, specially when your problems are truly tough or severely resource constrained (regarding flash, ram, etc). We have experience with devices that have long lifetimes in the field and emphasize code quality, updateability, reliability, stability, safety, and security.
 
 {% include snippets/two-cols-text-img-end background="blue" img='/images/fw.jpg' img-alt='embedded development' %}
 
 {% include snippets/full-width-container-end %}
 
-
-
-{% include snippets/contact-section text="If you are running into an interesting problem and you are looking for experts, contact us! Especially, if it is new tech, we will be all ears!" %}
+{% include snippets/contact-section text="If you are looking for IoT experts, contact us! Especially if your problem at first sight seems difficult, we will be all ears!" %}
