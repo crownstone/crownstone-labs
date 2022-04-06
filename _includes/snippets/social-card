@@ -1,3 +1,5 @@
+<!-- There should be a simpler way to pass images towards snippets -->
+
 {% if page.title %}
 	{% assign social_title = page.title %}
 {% elsif post.title %}
