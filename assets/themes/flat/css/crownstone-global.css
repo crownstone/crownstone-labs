@@ -176,7 +176,7 @@ div.bannerContainer {
 	 overflow:hidden;
 	 width: 100%;
 	 height: 80vw;
-	 max-height: 97vh;
+	 max-height: 60vh;
 	 min-height: 250px;
  }
 
@@ -689,22 +689,22 @@ div.bannerContainer .colored-caption {
 }
 
 div.bannerContainer.xl h1, div.bannerContainerLarge.xl h1{
-	font-size: 5em;
+	font-size: 4em;
 	line-height: 1em;
 }
 
 div.bannerContainer.lg h1, div.bannerContainerLarge.lg h1{
-	font-size: 3.5em;
-	line-height: 1em;
-}
-
-div.bannerContainer.md h1, div.bannerContainerLarge.md h1{
 	font-size: 2.5em;
 	line-height: 1em;
 }
 
+div.bannerContainer.md h1, div.bannerContainerLarge.md h1{
+	font-size: 2em;
+	line-height: 1em;
+}
+
 div.bannerContainer.sm h1, div.bannerContainerLarge.sm h1{
-	font-size: 1.7em;
+	font-size: 1.5em;
 	line-height: 1em;
 }
 
