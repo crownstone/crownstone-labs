@@ -4,7 +4,7 @@ title: Vision
 header: Pages
 description: "Crownstone Labs. Accelerate your R&D by experts in smart home products."
 keywords: "Crownstone Labs, vision"
-background-image: about-us
+background-image: about-us.jpeg
 banner-caption: What we believe in...
 kramdown:
   parse_block_html: true

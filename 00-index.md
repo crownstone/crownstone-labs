@@ -8,7 +8,7 @@ description: "Crownstone Labs: R&D for IoT"
 keywords: "technology, iot, labs, telecom, smart home"
 group: [navigation, navigation-consumer-footer]
 tags: [smart home, smart plug, switch, dimmer, power monitor, bluetooth, ble, bluetooth low energy, indoor positioning]
-background-image: home
+background-image: home.jpeg
 banner-caption: Crownstone Labs
 kramdown:
   parse_block_html: true
@@ -53,7 +53,7 @@ Crownstone Labs performs **R&D** for IoT projects in all its aspects. We design 
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image-home img-size='medium' img='/images/iot' format='jpg' img-alt='iot'%}
+{% include snippets/centered-image img-size='medium' img='/images/iot.jpeg' alt-formats='jpeg,webp' img-alt='iot'%}
 
 {% include snippets/full-width-container-end %}
 
