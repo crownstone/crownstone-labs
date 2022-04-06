@@ -1,0 +1,59 @@
+{%- comment -%}
+
+We are expecting the following arguments:
+
+    img:          a complete filename including extension, it's the default image to use
+    alt-formats:  array with extensions for alternative image formats (optional), separate by commas, no spaces
+
+Example:
+
+   include snippets/centered-image img-size='medium' img='/images/img.jpeg' alt-formats='jpeg,webp' img-alt='IoT'
+
+Note, use the same extension as being expected for type="image/jpeg" for jpeg files (not jpg).
+
+{%- endcomment -%}
+
+{%- assign ci-image = include.img -%}
+
+{%- assign ci-image-basename = ci-image | split:'.' | reverse | shift | reverse | join -%}
+{%- assign ci-image-extension = ci-image | split:'.' | last -%}
+
+{%- case include.img-size -%}
+{%- when "x-large" -%}
+    {%- assign col-number = "col-md-7" -%}
+    {%- assign col-margin = "p-3 pb-5" -%}
+{%- when "large" -%}
+    {%- assign col-number = "col-md-6" -%}
+    {%- assign col-margin = "p-4" -%}
+{%- when "medium" -%}
+    {%- assign col-number = "col-md-4" -%}
+    {%- assign col-margin = "p-3 pb-5" -%}
+{%- when "small" -%}
+    {%- assign col-number = "col-sm-4" -%}
+    {%- assign col-margin = "" -%}
+{%- else -%}
+    <!-- Check this default setting -->
+    {%- assign col-number = "col-md-7" -%}
+    {%- assign col-margin = "p-3 pb-5" -%}
+{%- endcase -%}
+
+{%- if include.img-class -%}
+{%- assign custom-img-class = "class = \"" | concat include.img-class | concat "\"" -%}
+{%- else -%}
+{%- assign custom-img-class = "" -%}
+{%- endif -%}
+
+<div class="row justify-content-center m-0 p-0">
+
+<div class="{{ col-number }} d-flex align-items-center justify-content-center {{ col-margin }}">
+    <picture>
+      {% assign formats = include.alt-formats | split: ',' %}
+      {%- for format in formats -%}
+        {%- assign alt-image = ci-image-basename | append: '.' | append: format -%}
+        <source srcset="{{ alt-image }}" type="image/{{ format }}">
+      {% endfor %}
+      <img src="{{ ci-image }}" alt="{{include.img-alt}}" {{custom-img-class}}>
+    </picture>
+</div>
+
+</div>
