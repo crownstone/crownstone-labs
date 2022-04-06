@@ -1,70 +1,22 @@
-{% if page.background-image %}
+{%- if page.background-image -%}
+
 <!-- background-image -->
-<div class="bannerContainer xl d-none d-xl-flex" style="background-image: url({{BASE_URL}}/images/banners/{{page.background-image}}.jpg); background-image: -webkit-image-set(url({{BASE_URL}}/images/banners/{{page.background-image}}.webp) 1x)">
-   {% if.page.banner-caption %}
-   <div class="banner-caption white-caption">
-   <h1>{{page.banner-caption}}</h1>
-   </div>
-   {% endif %}
-</div>
-<div class="bannerContainer lg d-none d-lg-flex d-xl-none" style="background-image: url({{BASE_URL}}/images/banners/{{page.background-image}}.jpg); background-image: -webkit-image-set(url({{BASE_URL}}/images/banners/{{page.background-image}}.webp) 1x)">
-   {% if.page.banner-caption %}
-   <div class="banner-caption white-caption">
-   <h1>{{page.banner-caption}}</h1>
-   </div>
-   {% endif %}
-</div>
-<div class="bannerContainer md d-none d-md-flex d-lg-none" style="background-image: url({{BASE_URL}}/images/banners/{{page.background-image}}.jpg); background-image: -webkit-image-set(url({{BASE_URL}}/images/banners/{{page.background-image}}.webp) 1x)">
-   {% if.page.banner-caption %}
-   <div class="banner-caption white-caption">
-   <h1>{{page.banner-caption}}</h1>
-   </div>
-   {% endif %}
-</div>
-<div class="bannerContainer sm d-none d-sm-flex d-md-none" style="background-image: url({{BASE_URL}}/images/banners/{{page.background-image}}.jpg); background-image: -webkit-image-set(url({{BASE_URL}}/images/banners/{{page.background-image}}.webp) 1x)">
-   {% if.page.banner-caption %}
-   <div class="banner-caption white-caption">
-   <h1>{{page.banner-caption}}</h1>
-   </div>
-   {% endif %}
-</div>
-<div class="bannerContainer xs d-flex d-sm-none" style="background-image: url({{BASE_URL}}/images/banners/{{page.background-image}}.jpg); background-image: -webkit-image-set(url({{BASE_URL}}/images/banners/{{page.background-image}}.webp) 1x)">
-</div>
-<!-- end background-image -->
-{% endif %}
 
+{%- assign background-image = 'url(' | append: BASE_URL | append: '/images/banners/' | append: page.background-image | append: ')' -%}
+{%- assign background-image-basename = page.background-image | split:'.' | reverse | shift | reverse | join -%}
+{%- assign webp-background-image = 'url(' | append: BASE_URL | append: '/images/banners/' | append: background-image-basename | append: '.webp' | append: ')' -%}
 
-{% if page.large-background-image %}
-<!-- background-image-large -->
-<div class="bannerContainerLarge xl d-none d-xl-flex" style="background-image: url({{BASE_URL}}/images/banners/{{page.large-background-image}}.jpg); background-image: -webkit-image-set(url({{BASE_URL}}/images/banners/{{page.large-background-image}}.webp) 1x)">
-   {% if.page.banner-caption %}
+{%- assign formats="xl,lg,md,sm,xs" | split: ',' -%}
+{%- assign hide-prev-format="" -%}
+{% for format in formats %}
+<div class="bannerContainer {{ format }} d-none d-{{ format }}-flex {{ hide-prev-format }}" style="background-image: {{ background-image }}; background-image: -webkit-image-set({{webp-background-image}} 1x)">
+   {% if.page.banner-caption and format != 'xs' %}
    <div class="banner-caption white-caption">
-   <h1>{{page.banner-caption}}</h1>
+       <h1>{{page.banner-caption}}</h1>
    </div>
    {% endif %}
 </div>
-<div class="bannerContainerLarge lg d-none d-lg-flex d-xl-none" style="background-image: url({{BASE_URL}}/images/banners/{{page.large-background-image}}.jpg); background-image: -webkit-image-set(url({{BASE_URL}}/images/banners/{{page.large-background-image}}.webp) 1x)">
-   {% if.page.banner-caption %}
-   <div class="banner-caption white-caption">
-   <h1>{{page.banner-caption}}</h1>
-   </div>
-   {% endif %}
-</div>
-<div class="bannerContainerLarge md d-none d-md-flex d-lg-none" style="background-image: url({{BASE_URL}}/images/banners/{{page.large-background-image}}.jpg); background-image: -webkit-image-set(url({{BASE_URL}}/images/banners/{{page.large-background-image}}.webp) 1x)">
-   {% if.page.banner-caption %}
-   <div class="banner-caption white-caption">
-   <h1>{{page.banner-caption}}</h1>
-   </div>
-   {% endif %}
-</div>
-<div class="bannerContainerLarge sm d-none d-sm-flex d-md-none" style="background-image: url({{BASE_URL}}/images/banners/{{page.large-background-image}}.jpg); background-image: -webkit-image-set(url({{BASE_URL}}/images/banners/{{page.large-background-image}}.webp) 1x)">
-   {% if.page.banner-caption %}
-   <div class="banner-caption white-caption">
-   <h1>{{page.banner-caption}}</h1>
-   </div>
-   {% endif %}
-</div>
-<div class="bannerContainerLarge xs d-flex d-sm-none" style="background-image: url({{BASE_URL}}/images/banners/{{page.large-background-image}}.jpg); background-image: -webkit-image-set(url({{BASE_URL}}/images/banners/{{page.large-background-image}}.webp) 1x)">
-</div>
-<!-- end background-image-large -->
-{% endif %}
+{%- assign hide-prev-format = 'd-' | append: format | append: '-none' -%}
+{% endfor %}
+
+{%- endif -%}
