@@ -134,7 +134,7 @@ Why go wireless?
 
 {% include snippets/centered-text-home-begin background='light' %}
 
-A wired or wireless IoT device can - thanks to its connection - be remotely and continuously monitored, configured, controlled, and updated. Additionally, wireless connected devices have the following benefits over their wired counterparts...
+A wired or wireless IoT device can - thanks to its connection - be remotely and continuously monitored, configured, controlled, and updated. Additionally, wireless devices have the following benefits over their wired counterparts...
 
 {% include snippets/centered-text-home-end %}
 
