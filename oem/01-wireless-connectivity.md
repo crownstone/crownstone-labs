@@ -53,7 +53,7 @@ Make your device connected!
 
 # Bring your non-connected device to Crownstone Labs and we will make it connected!
 
-Crownstone Labs makes non-connected devices part of the **Internet-of-Things** (IoT) world by making them connected. We make your new product part of a vast **ecosystem** where it can seamlessly communicate with other products, to the internet or to the cloud. 
+Crownstone Labs makes non-connected devices part of the **Internet-of-Things** (IoT) world by making them connected. We make your new product part of a vast **ecosystem** where it can seamlessly communicate with other products, to the internet or to the cloud.
 
 {% include snippets/two-cols-text-img-end img='/images/wireless/ecosystem.jpg' img-alt='IoT ecosystem' %}
 
@@ -114,9 +114,9 @@ Nordic chipsets
 
 {% include snippets/two-cols-text-img-begin text-alignment='right' background="blue" %}
 
-# Our favourite chipsets are by Nordic because of their excellent support. 
+# Our favourite chipsets are by Nordic
 
-We preferably use the **nRF52** series for a rapid ready-for-manufacturing (RFM) process. The nRF53 series supports Bluetooth 5.1 Direction Finding, Bluetooth 5 Long Range, NFC, Bluetooth Mesh, Thread, Zigbee and the nRF9160 supports NB-IoT/LTE-M (using an eSIM). 
+We preferably use the **nRF52** series for a rapid ready-for-manufacturing (RFM) process. The nRF53 series supports Bluetooth 5.1 Direction Finding, Bluetooth 5 Long Range, NFC, Bluetooth Mesh, Thread, Zigbee and the nRF9160 supports NB-IoT/LTE-M (using an eSIM). Although, we've experienced excellent support by Nordic engineers, we're not limited to their chipsets.
 
 {% include snippets/two-cols-text-img-end background="blue" img='/images/wireless/nordic.png' img-alt='nordic chipset nrf52' %}
 
@@ -134,7 +134,7 @@ Why go wireless?
 
 {% include snippets/centered-text-home-begin background='light' %}
 
-The wireless connection of a device to the IoT allows it to be monitored, configured and controlled remotely and continuously. Additionally, wireless connected devices have the following benefits over their wired counterparts
+A wired or wireless IoT device can - thanks to its connection - be remotely and continuously monitored, configured, controlled, and updated. Additionally, wireless connected devices have the following benefits over their wired counterparts...
 
 {% include snippets/centered-text-home-end %}
 
@@ -144,5 +144,4 @@ The wireless connection of a device to the IoT allows it to be monitored, config
 {% include snippets/three-items-in-a-row id='benefits'%}
 
 
-
-{% include snippets/contact-section bg-img='/wireless/contact.jpg' text="If you want to connect your device to the IoT, and keep it connected for its entire lifetime, contact us! We would love to help you with that!" %}
+{% include snippets/contact-section bg-img='/wireless/contact.jpg' text="If you want experts to help you on the wired or wireless connection of your IoT device, making sure it stays connected for its entire lifetime, contact us! We would love to help you with that!" %}
