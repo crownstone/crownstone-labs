@@ -49,7 +49,9 @@ Crownstone Labs
 
 {% include snippets/centered-text-home-begin background='light' %}
 
-Crownstone Labs performs **R&D** for IoT projects in all its aspects. We design top-notch **smart** products to accelerate your brand! We work together with original equipment manufacturers. If you are an **OEM** looking for a technology partner we would love to help you reach your ambitions!
+Crownstone Labs designs connected devices. We can both design the **electronics** as well as develop the **firmware** for your devices. With **smart** products, you accelerate your brand! We deliver our solutions towards original equipment manufacturers (OEMs).
+
+If you are an OEM looking for a technology partner we would love to help you reach your ambitions! We know how to build connected products, and will make sure they will stay connected in the years to come!
 
 {% include snippets/centered-text-home-end %}
 
