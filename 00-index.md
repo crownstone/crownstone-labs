@@ -86,7 +86,7 @@ By utilizing our **R&D**, your business can optimize costs, reduce risks and min
 {% include snippets/full-width-container-end %}
 
 
-{% include snippets/benefits-list %}
+{% include snippets/three-icons-in-line id='benefits' %}
 
 
 
@@ -121,4 +121,4 @@ Crownstone Labs has in-depth knowledge on **embedded programming** on a diverse 
 
 {% include snippets/full-width-container-end %}
 
-{% include snippets/contact-section text="If you are looking for IoT experts, contact us! Especially if your problem at first sight seems difficult, we will be all ears!" %}
+{% include snippets/contact-section bg-img='contact-home.jpg' text="If you are looking for IoT experts, contact us! Especially if your problem at first sight seems difficult, we will be all ears!" %}

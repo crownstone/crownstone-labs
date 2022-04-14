@@ -79,4 +79,4 @@ Crownstone Labs is specialized in miniaturization. We can pack a wide range of f
 
 {% include snippets/margin %}
 
-{% include snippets/contact-section-oem %}
+{% include snippets/contact-section bg-img='contact-home.jpg' text='If you are running into an interesting problem and you are looking for experts, contact us! Especially, if it is new tech, we will be all ears!' %}
