@@ -1,0 +1,9 @@
+<div class="col-md-4 col-lg-3 forget-box" id="{{include.img-alt}}" style="padding: 0 !important">
+
+<div class="row justify-content-center text-truncate" style="margin: 0 !important; white-space: normal; font-family: Lato, sans-serif; font-size: 1.5rem !important; font-style: normal !important; color: #003e52 !important; padding: 1.5rem !important; width: 100%" >
+{{ include.title }}
+</div>
+
+<div class="row justify-content-between align-self-end" style="margin: 0 !important; padding: 0 1.5rem !important; font-size: 1rem !important; color: #003e52 !important;">
+
+<div class="col-sm-6" style="padding: 0 !important; text-align: left; font-size: 1rem !important; color: #003e52 !important;" markdown="1">

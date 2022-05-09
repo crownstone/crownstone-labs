@@ -1,0 +1,8 @@
+{% assign ci-image = include.img %}
+
+</div>
+<div class="col-sm-6 d-flex align-items-center" style="padding: 0 !important">
+<img src="{{ ci-image }}" alt="{{ include.img-alt }}" style="width: 100%; margin: 0 0 16px;">
+</div>
+</div>
+</div>

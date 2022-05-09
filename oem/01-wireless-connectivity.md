@@ -27,11 +27,11 @@ benefits:
     image: /images/wireless/mobility.svg
     image-alt: device mobility
   - title: Lower setup and installation costs
-    description: Wireless communication infrastructure is easier, cheaper and faster to install
+    description: Wireless communication infrastructure is easier, cheaper, and faster to install
     image: /images/wireless/setup.svg
     image-alt: installation costs
   - title: Lower risks of malfunctioning
-    description: The absence of cables eliminates the risk of malfunction due to cable damage
+    description: The absence of cables eliminates the risk of malfunction due to cable damage   
     image: /images/wireless/damage.svg
     image-alt: damage
 ---
@@ -53,7 +53,7 @@ Make your device connected!
 
 # Bring your non-connected device to Crownstone Labs and we will make it connected!
 
-Crownstone Labs makes non-connected devices part of the **Internet-of-Things** (IoT) world by making them connected. We make your new product part of a vast **ecosystem** where it can seamlessly communicate with other products, to the internet or to the cloud.
+Crownstone Labs makes non-connected devices part of the **Internet-of-Things** (IoT) world by making them connected. We make your new product part of a vast **ecosystem** where it can seamlessly communicate with other products, to the internet, or the cloud.
 
 {% include snippets/two-cols-text-img-end img='/images/wireless/ecosystem.jpg' img-alt='IoT ecosystem' %}
 
@@ -116,7 +116,7 @@ Nordic chipsets
 
 # Our favourite chipsets are by Nordic
 
-We preferably use the **nRF52** series for a rapid ready-for-manufacturing (RFM) process. The nRF53 series supports Bluetooth 5.1 Direction Finding, Bluetooth 5 Long Range, NFC, Bluetooth Mesh, Thread, Zigbee and the nRF9160 supports NB-IoT/LTE-M (using an eSIM). Although, we've experienced excellent support by Nordic engineers, we're not limited to their chipsets.
+We preferably use the **nRF52** series for a rapid ready-for-manufacturing (RFM) process. The nRF53 series supports Bluetooth 5.1 Direction Finding, Bluetooth 5 Long Range, NFC, Bluetooth Mesh, Thread, Zigbee, and the nRF9160 supports NB-IoT/LTE-M (using an eSIM). Although we've experienced excellent support from Nordic engineers, we're not limited to their chipsets.
 
 {% include snippets/two-cols-text-img-end background="blue" img='/images/wireless/nordic.png' img-alt='nordic chipset nrf52' %}
 
