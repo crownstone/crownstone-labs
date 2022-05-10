@@ -139,14 +139,14 @@ Our most used skills
 C  
 C++  
 Assembly  
-Microphyton  
+Micropython  
 
 {% include snippets/frame-with-shadow-end img="/images/embedded/c++.svg" img-alt="c++ icon"%}
 
 
 {% include snippets/frame-with-shadow-begin title="Interfaces" %}
 
-I2C  
+I<sup>2</sup>C  
 SPI  
 USB  
 UART  
@@ -159,7 +159,7 @@ SWD
  
 Bluetooth (mesh)  
 Zigbee  
-Zwave  
+Z-Wave  
 Matter  
 NFC  
 
