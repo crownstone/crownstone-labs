@@ -157,7 +157,7 @@ SWD
 
 {% include snippets/frame-with-shadow-begin title="Stacks" %}
  
-Bluetooth (mesh) 
+Bluetooth (mesh)  
 Zigbee  
 Zwave  
 Matter  
