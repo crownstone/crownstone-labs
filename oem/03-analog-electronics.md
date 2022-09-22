@@ -44,7 +44,7 @@ Analog electronics
 
 # Crownstone has a team of analog electronics experts that can help you out with your new challenge!
 
-Crownstone Labs experts have depth understanding of **analog electronics**. Whether you need a new development, redesign, or troubleshooting, we analyze your requirements and find possible solutions to any challenge that you might face.
+Crownstone Labs experts have a deep understanding of **analog electronics**. Whether there is a need for new development, redesign, or troubleshooting, we analyze the requirements and find possible solutions to any challenge that a company might face.
 
 {% include snippets/two-cols-text-img-end img='/images/analog/pcb.jpg' img-alt='pcb' %}
 
@@ -63,7 +63,7 @@ Our hardware portfolio
 
 {% include snippets/centered-text-home-begin background='dark'%}
 
-Our team of experts creates hardware modules for energy monitoring, indoor localization, intelligent dimming, and other modules that fit a typical Internet-of-Things product line. 
+Our team of experts creates hardware modules for energy monitoring, indoor localization, intelligent dimming, and other modules that fit a typical Internet-of-Things product line.
 
 {% include snippets/centered-text-home-end %}
 
@@ -125,9 +125,9 @@ High-power switching and dimming
 
 {% include snippets/two-cols-text-img-begin  text-alignment='right' %}
 
-Crownstone Labs can provide high-power switching and dimming solutions. There are several power switch topologies available. For instance, we've used very extensively in the field, a bistable relay from Panasonic with a relay driver, a **NUD3112**, to be precise. 
+Crownstone Labs can provide high-power switching and dimming solutions. There are several power switch topologies available. For instance, we've used very extensively in the field, a bistable relay from Panasonic, together with a relay driver, a NUD3112, to be precise.
 
-Regarding dimming, Crownstone has expertise in designing gate driver solutions with a variety of **IGBTs** and **MOSFETs** and a variety of measures (different ways of clamping, etc.) to protect those components. 
+Regarding dimming, Crownstone has expertise in designing gate driver solutions with a variety of **IGBTs** and **MOSFETs** and a variety of measures (different ways of clamping, etc.) to protect those components.
 
 {% include snippets/two-cols-text-img-end img='/images/analog/igbts.jpg' img-alt='igbts' %}
 
