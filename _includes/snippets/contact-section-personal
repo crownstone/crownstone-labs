@@ -1,0 +1,34 @@
+{% assign email = include.email %}
+{% assign tel = include.tel %}
+
+<script type="text/javascript">
+	/*<![CDATA[*/
+	var a=new Array("{{ email[0] }}", "{{ email[1] }}", "{{ email[2] }}", "{{ email[3] }}", "{{ email[4] }}", "{{ email[5] }}");
+	document.write("{{ include.pre-text }} <a href='mailto:");
+	for(i=a.length-1;i>=0;i--) {
+		document.write(a[i])
+	}
+	document.write("?subject={{ include.subject}}'>");
+	{%if include.to %}document.write("{{ include.to }}");{% else %}
+	for(i=a.length-1;i>=0;i--){
+		document.write(a[i])
+	}
+	{% endif %}
+	document.write("</a>{{ include.post-text }}");
+	/*]]>*/
+</script>
+
+<script type="text/javascript">
+	/*<![CDATA[*/
+	var a=new Array("{{ tel[0] }}", "{{ tel[1] }}", "{{ tel[2] }}", "{{ tel[3] }}", "{{ tel[4] }}", "{{ tel[5] }}");
+	document.write("<a href='tel:");
+	for(i=a.length-1;i>=0;i--){
+		document.write(a[i])
+	}
+	document.write("'>");
+	for(i=a.length-1;i>=0;i--){
+    		document.write(a[i])
+    	}
+    document.write("</a>");
+	/*]]>*/
+</script>

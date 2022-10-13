@@ -33,6 +33,10 @@ benefits:
   - title: Minimize time to market
     img: /images/time.svg
     img-alt: minimize time to market
+projects:
+  - slogan: "Firmware challenge: Homey"
+    image: /images/homey
+    link: /projects/homey/
 ---
 
 {% include JB/setup %}
@@ -122,5 +126,22 @@ Crownstone Labs has in-depth knowledge of **embedded programming** on a diverse 
 {% include snippets/two-cols-text-img-end background="blue" img='/images/fw.jpg' img-alt='embedded development' %}
 
 {% include snippets/full-width-container-end %}
+
+
+
+{% include snippets/slogan-begin %}
+
+Projects
+
+{% include snippets/slogan-end %}
+
+
+{% include snippets/margin %}
+
+{% include snippets/two-frames-in-a-row id='projects' background='orange'%}
+
+{% include snippets/margin %}
+
+
 
 {% include snippets/contact-section bg-img='contact-home.jpg' text="If you are looking for IoT experts, contact us! Especially if your problem, at first sight, seems difficult, we will be all ears!" %}
