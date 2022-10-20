@@ -41,65 +41,45 @@ projects:
 
 {% include JB/setup %}
 
-
-
-{% include snippets/slogan-begin %}
-
-Crownstone Labs
-
-{% include snippets/slogan-end %}
-
 {% include snippets/full-width-container-begin %}
+  {% include snippets/centered-text-home-begin background='light' %}
 
-{% include snippets/centered-text-home-begin background='light' %}
+    Crownstone Labs designs connected devices. We can both design the **electronics** as well as develop the **firmware** for your devices. With **smart** products, you accelerate your brand! We deliver our solutions to original equipment manufacturers (OEMs).
 
-Crownstone Labs designs connected devices. We can both design the **electronics** as well as develop the **firmware** for your devices. With **smart** products, you accelerate your brand! We deliver our solutions to original equipment manufacturers (OEMs).
+    If you are an OEM looking for a technology partner we would love to help you reach your ambitions! We know how to build connected products, and will make sure they will stay connected in the years to come!
 
-If you are an OEM looking for a technology partner we would love to help you reach your ambitions! We know how to build connected products, and will make sure they will stay connected in the years to come!
-
-{% include snippets/centered-text-home-end %}
-
-{% include snippets/centered-image img-size='medium' img='/images/iot.jpeg' alt-formats='jpeg,webp' img-alt='iot'%}
-
+  {% include snippets/centered-text-home-end %}
 {% include snippets/full-width-container-end %}
 
 
-
 {% include snippets/slogan-begin background='blue' %}
-
-Our areas of expertise
-
+  Our areas of expertise
 {% include snippets/slogan-end %}
+
 
 {% include snippets/three-frames-in-a-row id='areas' no-arrow='true' main-background='blue' background='orange'%}
 
 
-
 {% include snippets/slogan-begin %}
 
-R&D for IoT projects
+  R&D for IoT projects
 
 {% include snippets/slogan-end %}
 
 {% include snippets/full-width-container-begin %}
+  {% include snippets/centered-text-home-begin background='light' %}
 
-{% include snippets/centered-text-home-begin background='light' %}
+    By utilizing our **R&D**, your business can optimize costs, reduce risks and minimize the time to market your **IoT applications**. Our R&D team can examine your idea before it becomes a product, and we can support to shape the concept into a **functional asset** that resolves the problems of your customers.
 
-By utilizing our **R&D**, your business can optimize costs, reduce risks and minimize the time to market your **IoT applications**. Our R&D team can examine your idea before it becomes a product, and we can support to shape the concept into a **functional asset** that resolves the problems of your customers.
-
-{% include snippets/centered-text-home-end %}
-
+  {% include snippets/centered-text-home-end %}
 {% include snippets/full-width-container-end %}
 
 
 {% include snippets/three-icons-in-line id='benefits' %}
 
 
-
 {% include snippets/slogan-begin background='blue' %}
-
-Ideal Challenges
-
+  Ideal Challenges
 {% include snippets/slogan-end %}
 
 
