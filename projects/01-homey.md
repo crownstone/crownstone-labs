@@ -36,15 +36,12 @@ As you might know, there are many different types of smart home products which u
 
 If you are also facing **challenges** in the development of your own smart home product – whether it’s software, firmware, or related to electronics – make sure to contact our business developers as they can help you navigate to a solution and help you speed up your time to market! Partner with Crownstone to **accelerate** your brand! 
 
-{% assign email = ".rocks, stone, crown, @, rey, jeff" | split: ", "  %}
+{% assign email = ".rocks, stone, crown, @, ask" | split: ", "  %}
 {% assign tel = "55, 39, 07, 103, (0), +31" | split: ", "  %}
 
-{% include snippets/contact-section-personal pre-text="Our business developer Jeffrey is ready to help you, so feel free to contact him by email at " email=email subject="Get in contact" tel=tel post-text=" or by phone at " %} 
-
+{% include snippets/contact-section-personal pre-text="To know more what we can do for you, reach out to us by email at " email=email subject="Get in contact" tel=tel post-text=" or by phone at " %}
 
 {% include snippets/margin %}
-
-
 
 {% include snippets/row-begin no-container-begin="true" class='no-margin-row' %}
 
