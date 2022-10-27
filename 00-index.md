@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Crownstone Labs
+title: Home
 hide_title: true
 twitter: true
 header: Home
 description: "Crownstone Labs: R&D for IoT"
 keywords: "technology, iot, labs, telecom, smart home"
-group: [navigation, navigation-consumer-footer]
+group: [navigation, navigation-oem-footer]
 tags: [smart home, smart plug, switch, dimmer, power monitor, bluetooth, ble, bluetooth low energy, indoor positioning]
 background-image: home.jpeg
 banner-caption: Crownstone Labs
@@ -17,50 +17,44 @@ areas:
   - slogan: Wireless connectivity
     image: /images/connectivity
     link: /oem/wireless-connectivity/
+    aria-label: "BLE, Bluetooth Mesh, Zephyr, ZWave, Matter"
   - slogan: Embedded development
     image: /images/embedded
     link: /oem/embedded-development/
+    aria-label: "Cortex M4, ESP32, I2C, ADC, SPI, Bootloader, RTOS"
   - slogan: Analog electronics
     image: /images/pcb
     link: /oem/analog-electronics/
-benefits:
-  - title: Optimize costs
-    img: /images/costs.svg
-    img-alt: optimize costs
-  - title: Reduce risks
-    img: /images/risks.svg
-    img-alt: reduce risks
-  - title: Minimize time to market
-    img: /images/time.svg
-    img-alt: minimize time to market
+    aria-label: "High voltage, power measurement, high frequency measurement"
 projects:
   - slogan: "Firmware challenge: Homey"
     image: /images/homey
     link: /projects/homey/
+  - slogan: "Passive presence detection: Gociety"
+    image: /images/gociety
+    link: /projects/gociety/
+  - slogan: "Bluetooth asset tracking: Blyott"
+    image: /images/blyott
+    link: /projects/blyott/
+  - slogan: "Collaborate with us: Your project"
+    image: /images/your_project
+    link: /contact/
 ---
 
 {% include JB/setup %}
 
 
 
-{% include snippets/slogan-begin %}
-
-Crownstone Labs
-
-{% include snippets/slogan-end %}
-
 {% include snippets/full-width-container-begin %}
+{% include snippets/circles-bg-begin img='/images/circles_1.png' bg-position='center' %}
 
 {% include snippets/centered-text-home-begin background='light' %}
 
-Crownstone Labs designs connected devices. We can both design the **electronics** as well as develop the **firmware** for your devices. With **smart** products, you accelerate your brand! We deliver our solutions to original equipment manufacturers (OEMs).
-
-If you are an OEM looking for a technology partner we would love to help you reach your ambitions! We know how to build connected products, and will make sure they will stay connected in the years to come!
+Crownstone Labs designs connected devices. We can both design the **electronics** as well as develop the **firmware** for your devices. With smart products, you accelerate your brand! We deliver our solutions to original equipment manufacturers (OEMs). If you are an OEM looking for a technology partner we would love to help you reach your ambitions! We know how to build **connected products**, and will make sure they will stay connected in the years to come!
 
 {% include snippets/centered-text-home-end %}
 
-{% include snippets/centered-image img-size='medium' img='/images/iot.jpeg' alt-formats='jpeg,webp' img-alt='iot'%}
-
+{% include snippets/circles-bg-end %}
 {% include snippets/full-width-container-end %}
 
 
@@ -77,22 +71,67 @@ Our areas of expertise
 
 {% include snippets/slogan-begin %}
 
-R&D for IoT projects
+Our proposition
 
 {% include snippets/slogan-end %}
 
-{% include snippets/full-width-container-begin %}
 
-{% include snippets/centered-text-home-begin background='light' %}
+{% include snippets/full-width-container-begin%}
 
-By utilizing our **R&D**, your business can optimize costs, reduce risks and minimize the time to market your **IoT applications**. Our R&D team can examine your idea before it becomes a product, and we can support to shape the concept into a **functional asset** that resolves the problems of your customers.
+{% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
 
-{% include snippets/centered-text-home-end %}
+Find **hard to track down** bugs in your firmware using **JLink**
+ 
+{% include snippets/two-cols-centered-text-img-end img='/images/bug.svg' img-alt='bug firmware' %}
 
 {% include snippets/full-width-container-end %}
 
 
-{% include snippets/three-icons-in-line id='benefits' %}
+
+{% include snippets/full-width-container-begin%}
+
+{% include snippets/two-cols-centered-text-img-begin %}
+
+Cook up **concepts and prototypes** using **NRF52** or ESP(8622/32) hardware
+ 
+{% include snippets/two-cols-centered-text-img-end img='/images/prototype.svg' img-alt='prototype' %}
+
+{% include snippets/full-width-container-end %}
+
+
+
+{% include snippets/full-width-container-begin%}
+
+{% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
+
+Implement **drivers for peripherals** that use Bluetooth, USB, UART, I2C, SPI, GPIO
+ 
+{% include snippets/two-cols-centered-text-img-end img='/images/peripheral.svg' img-alt='bug firmware' %}
+
+{% include snippets/full-width-container-end %}
+
+
+
+{% include snippets/full-width-container-begin%}
+
+{% include snippets/two-cols-centered-text-img-begin %}
+
+We are **certified member** of the **Bluetooth SIG** and work with Bluetooth Mesh
+ 
+{% include snippets/two-cols-centered-text-img-end img='/images/bluetooth.svg' img-alt='bluetooth' %}
+
+{% include snippets/full-width-container-end %}
+
+
+{% include snippets/full-width-container-begin%}
+
+{% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
+
+Consultancy for **cloud project architectures**
+ 
+{% include snippets/two-cols-centered-text-img-end img='/images/cloud.svg' img-alt='cloud' %}
+
+{% include snippets/full-width-container-end %}
 
 
 

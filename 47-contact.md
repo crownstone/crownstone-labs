@@ -6,16 +6,6 @@ group: [navigation-support]
 markdown: true
 skip-newsletter: true
 permalink: contact/
-specs:
-  - icon: el-idea
-    title: Press
-    link: /presskit/
-  - icon: el-envelope
-    title: Newsletter
-    link: /email-updates/
-  - icon: el-edit
-    title: Blog
-    link: /blog/
 ---
 {% include JB/setup %}
 
@@ -117,4 +107,4 @@ How to find our office?
 **Within the building:** Access the “Groothandelsgebouw” through the main entrance. Here, follow the directions for “Kleinhandel”. This means, go to the first floor, and then go left to the entrance to Kleinhandel. Follow the corridor all the way to the back of the building (you will pass several doors). Almost at the back of the building you will see the Crownstone office at the right.
 
 
-{% include snippets/specs spread="true" %}
+{% include snippets/margin%}

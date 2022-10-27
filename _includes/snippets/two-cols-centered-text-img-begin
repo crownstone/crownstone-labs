@@ -12,6 +12,6 @@
     {% assign flex-row-alignment = '' %}
 {% endif %}
 
-<div class="row justify-content-center align-items-center m-0 intra-padding {{ flex-row-alignment }} {{ background-class }}" style='{{ include.extra-style }}'>
+<div class="row justify-content-center align-items-center m-0 {{ flex-row-alignment }} {{ background-class }}" style='{{ include.extra-style }}'>
 
-<div class="cs-two-cols col-md-5 intra-padding description-small {{ text-class }}" markdown="1" style='text-align: center;'>
+<div class="cs-two-cols col-md-5 intra-padding description-medium {{ text-class }}" markdown="1" style='text-align: center;'>

@@ -5,7 +5,7 @@ hide_title: true
 header: Business
 description: "We are experts in miniaturization. We can pack a wide range of functions into a tiny form factory."
 keywords: "technology, iot, labs, telecom, smart home, analog, electronics"
-group: [navigation-oem-submenu, navigation-oem-footer]
+group: [navigation, navigation-oem-footer]
 background-image: analog-electronics.jpeg
 banner-caption: Analog Electronics
 kramdown:

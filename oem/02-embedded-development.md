@@ -5,7 +5,7 @@ hide_title: true
 header: Business
 description: "Our team of firmware experts can help you out if your problems are truly tough"
 keywords: "technology, iot, labs, smart home, firmware, software, hardware, embedded"
-group: [navigation-oem-submenu, navigation-oem-footer]
+group: [navigation, navigation-oem-footer]
 background-image: embedded-development.jpeg
 banner-caption: Embedded development
 kramdown:
