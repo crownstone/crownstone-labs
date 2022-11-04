@@ -1,10 +1,11 @@
 ---
 layout: page
-title: "Project: Blyott"
+title: "Blyott"
 header: Business
 keywords: "Bluetooth, asset, tracking, IoT, mesh, BLE"
 background-image: blyott.jpeg
 banner-caption: Blyott
+group: [navigation-projects-submenu]
 markdown: true
 kramdown:
   parse_block_html: true

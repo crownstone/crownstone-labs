@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Vision
+title: About us
 header: Pages
 description: "Crownstone Labs. Accelerate your R&D by experts in smart home products."
 keywords: "Crownstone Labs, vision"
@@ -8,7 +8,7 @@ background-image: about-us.jpeg
 banner-caption: The future is wireless
 kramdown:
   parse_block_html: true
-group: [navigation-about-us-submenu, navigation-about-us-footer]
+group: [navigation-about-us, navigation-about-us-footer]
 permalink: about-us/
 ---
 {% include JB/setup %}

@@ -8,7 +8,7 @@ background-image: projects.jpeg
 banner-caption: Projects
 kramdown:
   parse_block_html: true
-group: [navigation-about-us-submenu, navigation-about-us-footer]
+group: [navigation-about-us-footer]
 permalink: projects/
 ---
 {% include JB/setup %}

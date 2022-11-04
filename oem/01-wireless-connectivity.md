@@ -5,7 +5,7 @@ hide_title: true
 header: Business
 description: "Come to Crownstone with a non-connected device and we will make it connected!"
 keywords: "technology, iot, labs, telecom, smart home, wireless, connectivity"
-group: [navigation, navigation-oem-footer]
+group: [navigation-oem-submenu, navigation-oem-footer]
 background-image: wireless-connectivity.jpeg
 banner-caption: Wireless connectivity
 kramdown:

@@ -1,10 +1,11 @@
 ---
 layout: page
-title: "Project: Gociety"
+title: "Gociety"
 header: Business
 keywords: "Bluetooth, anomaly, detection, AI, IoT, mesh, passive, presence"
 background-image: gociety.jpeg
 banner-caption: Gociety
+group: [navigation-projects-submenu]
 markdown: true
 kramdown:
   parse_block_html: true

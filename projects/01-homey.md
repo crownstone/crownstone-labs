@@ -1,10 +1,11 @@
 ---
 layout: page
-title: "Project: Homey"
+title: "Homey"
 header: Business
 keywords: "technology, homey, labs, smart home, firmware, embedded"
 background-image: homey.jpeg
 banner-caption: Homey
+group: [navigation-projects-submenu]
 markdown: true
 kramdown:
   parse_block_html: true
