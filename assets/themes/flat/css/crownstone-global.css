@@ -245,6 +245,10 @@ p.description-paragraph{
 	font-size: 1rem !important;
 }
 
+.description-medium{
+	font-size: 1.2rem !important;
+}
+
 div.transparent-bg{
 	background-color: transparent;
 }
