@@ -1,23 +1,55 @@
-{% assign ci-image = include.img %}
+{% assign ci-img = include.img %}
 
-{% assign extension = include.img | split: "." | last %}
-
-</div> <!-- end first cs-two-cols and start new -->
-
-<div class="cs-two-cols col-md-5 intra-padding description-small {{ text-class }}" markdown="1" style='text-align: right;'>
-
-{% if extension == 'jpg' or extension == 'jpeg' or extension == 'png' or extension == 'webp' %}
-   <img src="{{ ci-image }}" alt="{{ include.img.alt }}"/>
+{% if include.btn %}
+<div class="row justify-content-end intra-padding">
+<div class="newsletter bottom">
+<div class="wrapper">
+{% if include.btn-contact and include.btn-contact == 'anne' %}
+<script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-anne.email[0] }}", "{{ site.contact-job.email[1] }}", "{{ site.contact-anne.email[2] }}", "{{ site.contact-job.email[3] }}", "{{ site.contact-anne.email[4] }}", "{{ site.contact-anne.email[5] }}");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Lets talk about matter' class='btn' style=\"text-align: center !important; align-self: flex-end; border-radius: 0.25rem; padding: .375rem 1.25rem; font-family: Lato, sans-serif; font-size: 1rem; letter-spacing: 1px; color: white !important; background-color: #ff8400; box-shadow: 3px 3px 4px rgb(0 0 0 / 16%); text-decoration: none\">{{ include.btn-text }}</a>");/*]]>*/</script>
+<noscript>{{ include.btn-text }}</noscript>
 {% else %}
-
-<picture>
-  <source srcset="{{ ci-image }}.webp" type="image/webp">
-  <source srcset="{{ ci-image }}.png" type="image/png">
-  <source srcset="{{ ci-image }}.jpg" type="image/jpeg">
-  <img src="{{ci-image}}.jpg" alt="{{include.img-alt}}"/>
-</picture>
-
+<script type="text/javascript">/*<![CDATA[*/var a=new Array("{{ site.contact-team.email[0] }}", "{{ site.contact-team.email[1] }}", "{{ site.contact-team.email[2] }}", "{{ site.contact-team.email[3] }}", "{{ site.contact-team.email[4] }}", "{{ site.contact-team.email[5] }}");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Get in contact' class='btn' style=\"text-align: center !important; align-self: flex-end; border-radius: 0.25rem; padding: .375rem 1.25rem; font-family: Lato, sans-serif; font-size: 1rem; letter-spacing: 1px; color: white !important; background-color: #ff8400; box-shadow: 3px 3px 4px rgb(0 0 0 / 16%); text-decoration: none\">{{ include.btn-text }}</a>");/*]]>*/</script>
+<noscript>{{ include.btn-text }}</noscript>
+{% endif %}
+</div>
+</div>
+</div>
 {% endif %}
 
-</div> <!-- end of cs-two-cols -->
-</div> <!-- end of row -->
+{% if include.link %}
+<div class="row justify-content-end intra-padding">
+<div class="newsletter bottom">
+<div class="wrapper">
+<a href= "{{ include.url }}" class='btn' style="text-align: center !important; align-self: flex-end; border-radius: 0.25rem; padding: .375rem 1.25rem; font-family: Lato, sans-serif; font-size: 1rem; letter-spacing: 1px; color: white !important; background-color: #ff8400; box-shadow: 3px 3px 4px rgb(0 0 0 / 16%); text-decoration: none;">
+{{ include.link-text }}
+</a>
+</div>
+</div>
+</div>
+{% endif %}
+
+</div>
+
+{% if include.xl-img and include.xl-img == 'true' %}
+{% if include.background and include.background == 'blue' %}
+<div class="col-md-7 intra-padding align-items-center blue-bg">
+{% else %}
+<div class="col-md-7 intra-padding align-items-center">
+{% endif %}
+{% else %}
+{% if include.background and include.background == 'blue' %}
+<div class="col-md-5 intra-padding align-items-center blue-bg">
+{% else %}
+<div class="col-md-5 intra-padding align-items-center">
+{% endif %}
+{% endif %}
+
+{% if include.map and include.map == 'true' %}
+<iframe width="100%" height="500px" style="float:center" src="https://render.githubusercontent.com/view/geojson?url=https://gist.githubusercontent.com/mrquincle/d467ac542cf5263c17946e14019bbae9/raw/6cf2b5e9aa1ec955fbd8d8d4f0da994f1781f1ce/installers.geojson">
+<p>Your browser does not support iframes</p>
+</iframe>
+{% else %}
+<img src="{{ci-img}}" alt="{{include.img-alt}}"/>
+{% endif %}
+</div>
+</div>
