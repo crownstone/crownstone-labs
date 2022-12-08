@@ -1,0 +1,1015 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+
+    <meta name="description" content="Meet your Matter-specialist: Crownstone Labs">
+
+    
+
+    
+
+    <meta name="keywords" content="smart home, smart plug, switch, dimmer, power monitor, bluetooth, ble, bluetooth low energy, indoor positioning, Matter, smart home devices, Matter protocol, Matter standard, Matter-ready, Matter-compatible">
+    <meta name="author" content="Crownstone Labs">
+    <link rel="icon" type="image/x-icon" href="https://crownstone-labs.com/images/favicon.ico">
+    <link rel="apple-touch-icon" href="https://crownstone-labs.com/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://crownstone-labs.com/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://crownstone-labs.com/images/apple-touch-icon-114x114.png">
+
+    <meta name="theme-color" content="#ff8400">
+    <meta name="msapplication-navbutton-color" content="#ff8400">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#ff8400">
+
+    <!-- Add I18n_headers manually -->
+    <meta http-equiv="Content-Language" content="en">
+    <link rel="alternate" hreflang="en" href="https://crownstone-labs.com/"/>
+
+    
+    <title>Crownstone | Matter</title>
+    <!-- There should be a simpler way to pass images towards snippets -->
+	<!-- Twitter social card -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Matter">
+	<meta name="twitter:description" content="Meet your Matter-specialist: Crownstone Labs">
+	<meta name="twitter:image" content="https://crownstone-labs.com/images/banners/matter.jpeg">
+	<meta name="twitter:image:width" content="240">
+	<meta name="twitter:image:height" content="240">
+    <!-- Open graph social card -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Matter">
+    <meta property="og:url" content="https://crownstone-labs.com/matter">
+    <meta property="og:image" content="https://crownstone-labs.com/images/banners/matter.jpeg">
+    <meta property="og:image:secure_url" content="https://crownstone-labs.com/images/banners/matter.jpeg">
+    <meta property="og:description" content="Meet your Matter-specialist: Crownstone Labs">
+    <meta property="og:site_name" content="Crownstone">
+    <!-- Bootstrap as framework -->
+    <link href="/assets/themes/flat/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/themes/flat/css/crownstone-global.css" rel="stylesheet">
+    <link href="/assets/themes/flat/css/elusive-icons.min.css" rel="stylesheet">
+    <link href="/assets/themes/flat/css/syntax.css" rel="stylesheet">
+    <!-- 
+    <link href="/assets/themes/flat/css/elusive-webfont.css" rel="stylesheet"> 
+    -->
+    <!--[if lt IE 9]>
+        <script src="/assets/themes/flat/resources/respond/Respond.min.js"></script>
+    <![endif]-->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!--[if gt IE 9]>
+    <link href="./bootstrap/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> 
+    <![endif]-->
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+    
+
+    
+    
+</head>
+
+<body>
+
+   <nav class="navbar navbar-light navbar-expand-lg">
+      <div class="container navContainer">
+         <img class="navbar-brand topLogo xs img-responsive" src="/images/apple-touch-icon-114x114.png" alt="">
+         <div class="crownstoneText d-block d-lg-none">Crownstone</div>
+
+         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarContents" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+
+         <div class="collapse navbar-collapse" id="navbarContents">
+            <ul class="navbar-nav">
+                
+				<li class="nav-item inactive "><a href="/" class="nav-link">Home</a></li>
+				<li class="nav-item active"><a href="/matter" class="nav-link active">Matter</a></li>
+
+
+                
+
+
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Solutions
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="z-index: 1001; padding: 0;">
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/oem/wireless-connectivity/" style="background-color: transparent;">Wireless connectivity</a>
+          
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/oem/embedded-development/" style="background-color: transparent;">Embedded development</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/oem/analog-electronics/" style="background-color: transparent;">Analog electronics</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+    </div>
+</li>
+
+
+                
+
+
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Use cases
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="z-index: 1001; padding: 0;">
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/projects/homey/" style="background-color: transparent;">Homey</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/projects/gociety/" style="background-color: transparent;">Gociety</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+       
+          <a class="dropdown-item inactive " href="/projects/blyott/" style="background-color: transparent;">Blyott</a>
+          
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+     
+      
+     
+    
+    </div>
+</li>
+
+
+                
+				<li class="nav-item inactive "><a href="/about-us/" class="nav-link">About us</a></li>
+
+                
+				<li class="nav-item inactive "><a href="/contact/" class="nav-link">Contact</a></li>
+
+            </ul>
+         </div>
+      </div>
+   </nav>
+
+<!-- background-image -->
+<div class="bannerContainer xl d-none d-xl-flex " style="background-image: url(/images/banners/matter.jpeg); background-image: -webkit-image-set(url(/images/banners/matter.webp) 1x)">
+   
+</div>
+<div class="bannerContainer lg d-none d-lg-flex d-xl-none" style="background-image: url(/images/banners/matter.jpeg); background-image: -webkit-image-set(url(/images/banners/matter.webp) 1x)">
+   
+</div>
+<div class="bannerContainer md d-none d-md-flex d-lg-none" style="background-image: url(/images/banners/matter.jpeg); background-image: -webkit-image-set(url(/images/banners/matter.webp) 1x)">
+   
+</div>
+<div class="bannerContainer sm d-none d-sm-flex d-md-none" style="background-image: url(/images/banners/matter.jpeg); background-image: -webkit-image-set(url(/images/banners/matter.webp) 1x)">
+   
+</div>
+<div class="bannerContainer xs d-none d-xs-flex d-sm-none" style="background-image: url(/images/banners/matter.jpeg); background-image: -webkit-image-set(url(/images/banners/matter.webp) 1x)">
+   
+</div>
+
+
+
+
+
+
+<div class="container-fluid p-0" style="padding: 0 !important; margin: 0 !important;">
+
+
+
+
+
+
+<div class="backgroundText" style="background-image: url(/images/circles_1.png); background-position:center">
+
+
+
+<div class="container-fluid transparent-bg">
+    <div class="row justify-content-center m-0 transparent-bg">
+        
+        <h1 class="slogan blue-text" style="color: #003e52 !important;">
+        
+
+
+Get ready for the future of smart homes
+
+        </h1>
+        <div class="col-4 underline-slogan"> </div>
+    </div>
+</div>
+
+
+
+<div class="row justify-content-center m-0">
+  <div class="col-xl-6">
+    
+    
+    <p class="description-paragraph blue-text" style="color: #003e52 !important">
+  <br />
+
+Crownstone makes your devices <strong>Matter-compatible</strong>
+
+        </p>
+    </div>
+</div>
+
+
+</div>
+</div>
+
+<div class="container-fluid blue-bg">
+    <div class="row justify-content-center m-0">
+        <h1 class="slogan white-text" style="color: white !important">
+
+
+What's Matter?
+
+        </h1>
+        <div class="col-4 underline-slogan"> </div>
+    </div>
+</div>
+
+<div class="container-fluid blue-bg p-0" style="padding: 0 !important; margin: 0 !important;">
+
+
+
+
+
+
+<div class="row justify-content-center align-items-center m-0 intra-padding  blue-bg" style="">
+
+
+<div class="cs-two-cols col-md-5 intra-padding description-small white-text" style="text-align: left;">
+
+      <h1 id="header-matter-starts-a-new-smart-home-era">Matter starts a new smart home era</h1>
+
+      <p>The current smart home solutions do not work well together, keeping the overall market small. This however changed in 2022: The Matter standard makes millions of smart home products work together. This means that there is a small time window to conquer the market for a device category. A smart home product must be Matter-compatible <strong>before the holiday season of 2023</strong> to be competitive in the market. No time to lose! The time to build is now!</p>
+
+    </div>
+
+
+
+<div class="col-md-5 intra-padding align-items-center blue-bg">
+
+
+
+
+<img src="/images/matter/smart-home.jpeg" alt="smart home" />
+
+</div>
+</div>
+
+</div>
+
+<div class="container-fluid blue-bg p-0" style="padding: 0 !important; margin: 0 !important;">
+
+
+
+
+
+
+<div class="row justify-content-center align-items-center m-0 intra-padding flex-row-reverse blue-bg" style="">
+
+
+<div class="cs-two-cols col-md-5 intra-padding description-small white-text" style="text-align: right;">
+
+      <h1 id="header-matter-brings-together-many-of-the-biggest-smart-home-players">Matter brings together many of the biggest smart home players</h1>
+
+      <p>Matter is the new smart home standard and driven by all major players. <strong>Amazon</strong> will push the update in 2022 to all 17 Echo devices. All new <strong>Google</strong> Nest and Home products have it built-in. <strong>Apple</strong> HomePod, Apple TV, watchOS, iPadOS are all Matter-certified. <strong>Samsung</strong> hubs are Matter controllers. Smart home products must be Matter-compatible by the end of 2023 to continue competing in the market.</p>
+
+      <p><strong>Crownstone’s firmware experts</strong> make your devices <strong>Matter-compatible</strong>.</p>
+
+    </div>
+
+
+
+<div class="col-md-5 intra-padding align-items-center blue-bg">
+
+
+
+
+<img src="/images/matter/matter-players.jpeg" alt="Matter players" />
+
+</div>
+</div>
+
+</div>
+
+<div class="container-fluid transparent-bg">
+    <div class="row justify-content-center m-0 transparent-bg">
+        
+        <h1 class="slogan blue-text" style="color: #003e52 !important;">
+        
+
+
+Our expertise
+
+        </h1>
+        <div class="col-4 underline-slogan"> </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+<div class="row justify-content-center m-0">
+
+<div class="col-md-11">
+
+<div class="row justify-content-center mb-1">
+
+
+
+
+<div class="col-md-5 col-lg-4 forget-box col-bottom-aligned" id="protocols" style="padding: 0 !important">
+
+<img src="/images/matter/protocols.png" alt="protocols" style="width: 100%; padding: 0rem;" />
+
+<div class="row justify-content-center text-truncate col-bottom-aligned-child" style="margin: 0 !important; white-space: normal; font-family: Lato, sans-serif; font-size: 1.3rem !important; font-style: normal !important; color: #003e52 !important; padding: 1rem 1.5rem !important; width: 100%; text-align: center;">
+Wireless protocols
+</div>
+
+<div class="row justify-content-center col-bottom-aligned-child" style="margin: 0 !important; text-align: center; padding: 0 1.5rem !important; font-size: 1rem !important;">
+
+            <p>Matter builds on top of protocols such as Thread, Wi-Fi, and Bluetooth LE, all of which we know the ins and outs.</p>
+
+          </div>
+</div>
+
+
+
+
+<div class="col-md-5 col-lg-4 forget-box col-bottom-aligned" id="embedded" style="padding: 0 !important">
+
+<img src="/images/matter/embedded.png" alt="embedded" style="width: 100%; padding: 0rem;" />
+
+<div class="row justify-content-center text-truncate col-bottom-aligned-child" style="margin: 0 !important; white-space: normal; font-family: Lato, sans-serif; font-size: 1.3rem !important; font-style: normal !important; color: #003e52 !important; padding: 1rem 1.5rem !important; width: 100%; text-align: center;">
+Embedded development
+</div>
+
+<div class="row justify-content-center col-bottom-aligned-child" style="margin: 0 !important; text-align: center; padding: 0 1.5rem !important; font-size: 1rem !important;">
+
+            <p>To build Matter-based products fast, expertise in Matter-supporting RTOS (e.g. Zephyr), firmware updates over the air, mesh network expertise, etc. is all paramount to a robust product line for years to come.</p>
+
+          </div>
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="container-fluid">
+<div class="row justify-content-center m-0">
+
+<div class="col-md-11">
+
+<div class="row justify-content-center mb-1">
+
+
+
+
+<div class="col-md-5 col-lg-4 forget-box col-bottom-aligned" id="security" style="padding: 0 !important">
+
+<img src="/images/matter/security.png" alt="security" style="width: 100%; padding: 0rem;" />
+
+<div class="row justify-content-center text-truncate col-bottom-aligned-child" style="margin: 0 !important; white-space: normal; font-family: Lato, sans-serif; font-size: 1.3rem !important; font-style: normal !important; color: #003e52 !important; padding: 1rem 1.5rem !important; width: 100%; text-align: center;">
+Security
+</div>
+
+<div class="row justify-content-center col-bottom-aligned-child" style="margin: 0 !important; text-align: center; padding: 0 1.5rem !important; font-size: 1rem !important;">
+
+            <p>Matter comes with encryption in place, but to adhere to the future Cyber Resilience Act it’s important to have in-depth knowledge on potential vulnerabilities.</p>
+
+          </div>
+</div>
+
+
+
+
+<div class="col-md-5 col-lg-4 forget-box col-bottom-aligned" id="microcontrollers" style="padding: 0 !important">
+
+<img src="/images/matter/nrf52840.png" alt="microcontrollers" style="width: 100%; padding: 0rem;" />
+
+<div class="row justify-content-center text-truncate col-bottom-aligned-child" style="margin: 0 !important; white-space: normal; font-family: Lato, sans-serif; font-size: 1.3rem !important; font-style: normal !important; color: #003e52 !important; padding: 1rem 1.5rem !important; width: 100%; text-align: center;">
+Microcontrollers
+</div>
+
+<div class="row justify-content-center col-bottom-aligned-child" style="margin: 0 !important; text-align: center; padding: 0 1.5rem !important; font-size: 1rem !important;">
+
+            <p>Matter requires embedded expertise of chipsets such as the Nordic nRF52840, the SiLabs EFR32MG21/24 series, the Espressif ESP32 series, all within our portfolio of microcontrollers we’ve worked with.</p>
+
+          </div>
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="w-100" style="height: 3.5rem"> </div>
+
+<div class="container-fluid blue-bg">
+    <div class="row justify-content-center m-0">
+        <h1 class="slogan white-text" style="color: white !important">
+
+
+Why become Matter-compatible now?
+
+        </h1>
+        <div class="col-4 underline-slogan"> </div>
+    </div>
+</div>
+
+<div class="container-fluid blue-bg p-0" style="padding: 0 !important; margin: 0 !important;">
+
+
+<div class="row justify-content-center m-0">
+  <div class="col-xl-6">
+    
+    <p class="description-paragraph white-text" style="color: white !important">
+  <br />
+  <br />
+
+Matter is the next-gen <strong>smart home standard</strong>. It solves several smart home pain points while providing interoperability between devices and platforms. Check the statistics below to get an idea of the importance of Matter for the new smart home era.
+
+        </p>
+    </div>
+</div>
+
+</div>
+
+<div class="row justify-content-center m-0 pt-5 pb-5" style="background-color: #003e52;">
+
+    
+
+    
+
+    
+    
+
+    <div class="col-md-3 pb-3 pl-5 pr-5">
+        <div class="row justify-content-center">
+            <div class="col-xs-12">
+                <img src="/images/matter/companies.png" alt="companies" style="width: 100%" />
+                
+                <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem !important; color: white !important; padding: 0; margin: 0;">
+                    Over 200 companies created the standard. In 2022 all tech giants will have Matter-compatible hubs.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    
+
+    
+
+    
+    
+
+    <div class="col-md-3 pb-3 pl-5 pr-5">
+        <div class="row justify-content-center">
+            <div class="col-xs-12">
+                <img src="/images/matter/products.png" alt="Matter products" style="width: 100%" />
+                
+                <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem !important; color: white !important; padding: 0; margin: 0;">
+                    Over 190 products are already certified or almost certified.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    
+
+    
+
+    
+    
+
+    <div class="col-md-3 pb-3 pl-5 pr-5">
+        <div class="row justify-content-center">
+            <div class="col-xs-12">
+                <img src="/images/matter/shipped.png" alt="shipped" style="width: 100%" />
+                
+                <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem !important; color: white !important; padding: 0; margin: 0;">
+                    More than 5.5 billion Matter-compliant devices will be shipped in the coming 7 years (ABI Research)
+                </p>
+            </div>
+        </div>
+    </div>
+
+    
+        <div class="w-100"></div>
+    
+
+    
+
+    
+    
+
+    <div class="col-md-3 pb-3 pl-5 pr-5">
+        <div class="row justify-content-center">
+            <div class="col-xs-12">
+                <img src="/images/matter/revenue.png" alt="revenue" style="width: 100%" />
+                
+                <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem !important; color: white !important; padding: 0; margin: 0;">
+                    Smart home hardware revenues will surpass $30 billion worldwide (ABI Research)
+                </p>
+            </div>
+        </div>
+    </div>
+
+    
+
+    
+
+    
+    
+
+    <div class="col-md-3 pb-3 pl-5 pr-5">
+        <div class="row justify-content-center">
+            <div class="col-xs-12">
+                <img src="/images/matter/households.png" alt="households" style="width: 100%" />
+                
+                <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem !important; color: white !important; padding: 0; margin: 0;">
+                    The number of smart home users will reach 573.7 million in 3 years: household penetration of 25% by 2026.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    
+
+    
+
+</div>
+
+<div class="container-fluid transparent-bg">
+    <div class="row justify-content-center m-0 transparent-bg">
+        
+        <h1 class="slogan blue-text" style="color: #003e52 !important;">
+        
+
+
+Why Crownstone?
+
+        </h1>
+        <div class="col-4 underline-slogan"> </div>
+    </div>
+</div>
+
+<div class="container-fluid p-0" style="padding: 0 !important; margin: 0 !important;">
+
+
+
+
+
+
+<div class="row justify-content-center align-items-center m-0 flex-row-reverse " style="">
+
+<div class="cs-two-cols col-md-5 intra-padding description-medium blue-text" style="text-align: center;">
+
+      <h3 id="header-crownstone-expertise">Crownstone expertise</h3>
+
+      <p>The Crownstone team has the right expertise to work with <strong>Matter</strong>. We not only have developed Matter-compatible products in-house, but can tap into our deep knowledge on wireless protocols to embedded development and encryption in general.</p>
+
+    </div>
+
+
+<div class="col-md-4 intra-padding align-items-center">
+
+
+<img src="/images/matter/expertise.png" alt="expertise" />
+</div>
+</div>
+
+</div>
+
+<div class="container-fluid p-0" style="padding: 0 !important; margin: 0 !important;">
+
+
+
+
+
+
+<div class="row justify-content-center align-items-center m-0  " style="">
+
+<div class="cs-two-cols col-md-5 intra-padding description-medium blue-text" style="text-align: center;">
+
+      <h3 id="header-crownstone-projects">Crownstone projects</h3>
+
+      <p>Crownstone developers have experience with collaboration on firmware projects with external companies. At <a href="https://homey.app/en-us/">Athom B.V</a>, the <strong>number one smart home hub</strong> in the Netherlands, Crownstone has a significant role within the firmware development for their new product, the <strong>Homey Pro</strong>, coming out in 2023. For <a href="https://www.golivehealth.nl/en/">Gociety</a> Crownstone developed together with Fraunhofer firmware which goes far beyond commercial offerings in the sense of <strong>wireless radar</strong>.</p>
+
+    </div>
+
+
+<div class="col-md-4 intra-padding align-items-center">
+
+
+<img src="/images/matter/homey.png" alt="Athom Homey" />
+</div>
+</div>
+
+</div>
+
+<div class="container-fluid p-0" style="padding: 0 !important; margin: 0 !important;">
+
+
+
+
+
+
+<div class="row justify-content-center align-items-center m-0 flex-row-reverse " style="">
+
+<div class="cs-two-cols col-md-5 intra-padding description-medium blue-text" style="text-align: center;">
+
+      <h3 id="header-crownstones-specialization">Crownstone’s specialization</h3>
+
+      <p>Crownstone is specialized in <strong>smart home products</strong>. This means we are attuned to user preferences in this space. This ranges from expected speed of interaction, security considerations, and ease of setup.</p>
+
+    </div>
+
+
+<div class="col-md-4 intra-padding align-items-center">
+
+
+<img src="/images/matter/specialized.png" alt="smart home" />
+</div>
+</div>
+
+</div>
+
+<div class="container-fluid p-0" style="padding: 0 !important; margin: 0 !important;">
+
+
+
+
+
+
+<div class="row justify-content-center align-items-center m-0  " style="">
+
+<div class="cs-two-cols col-md-5 intra-padding description-medium blue-text" style="text-align: center;">
+
+      <h3 id="header-crownstones-team">Crownstone’s team</h3>
+
+      <p>Hiring expert software developers is time-consuming and expensive. Crownstone has a <strong>team of experts</strong> with a skillsetthat is high in demand. To have such a team in place means that you have a flying start and will reduce your time-to-market largely.</p>
+
+    </div>
+
+
+<div class="col-md-4 intra-padding align-items-center">
+
+
+<img src="/images/matter/team.png" alt="experts" />
+</div>
+</div>
+
+</div>
+
+<div class="container-fluid p-0" style="padding: 0 !important; margin: 0 !important;">
+
+
+
+
+
+
+<div class="row justify-content-center align-items-center m-0 flex-row-reverse " style="">
+
+<div class="cs-two-cols col-md-5 intra-padding description-medium blue-text" style="text-align: center;">
+
+      <h3 id="header-crownstone-is-a-eureopean-company">Crownstone is a Eureopean company</h3>
+
+      <p>Crownstone is based in the Netherlands. This is important with respect to sensibilities of the European customer with respect to user interaction and security. It also means we will operate under European laws such as GDPR and the Cyber Resilience Act by default.</p>
+
+    </div>
+
+
+<div class="col-md-4 intra-padding align-items-center">
+
+
+<img src="/images/matter/european.png" alt="european" />
+</div>
+</div>
+
+</div>
+
+<div class="container-fluid blue-bg">
+    <div class="row justify-content-center m-0">
+        <h1 class="slogan white-text" style="color: white !important">
+
+
+Case study
+
+        </h1>
+        <div class="col-4 underline-slogan"> </div>
+    </div>
+</div>
+
+<div class="container-fluid blue-bg p-0" style="padding: 0 !important; margin: 0 !important;">
+
+
+
+
+
+
+<div class="row justify-content-center align-items-center m-0 intra-padding  blue-bg" style="">
+
+
+<div class="cs-two-cols col-md-5 intra-padding description-small white-text" style="text-align: left;">
+
+      <h1 id="header-homey-pro">Homey Pro</h1>
+
+      <p>Crownstone collaborated with Athom on the new <a href="https://homey.app/en-us/">Homey Pro</a>. The details of this collaboration cannot be disclosed, but our team of embedded development engineers had a large impact on the firmware development of this very popular smart home hub.</p>
+
+    </div>
+
+
+
+<div class="col-md-5 intra-padding align-items-center blue-bg">
+
+
+
+
+<img src="/images/matter/case-homey.png" alt="firmware homey" />
+
+</div>
+</div>
+
+</div>
+
+<div class="container-fluid p-0" style="padding: 0 !important; margin: 0 !important;">
+
+
+
+
+
+
+<div class="backgroundText" style="background-image: url(/images/circles_1.png); background-position:center">
+
+
+
+<div class="container-fluid transparent-bg">
+    <div class="row justify-content-center m-0 transparent-bg">
+        
+        <h1 class="slogan blue-text" style="color: #003e52 !important;">
+        
+
+
+Get in contact
+
+        </h1>
+        <div class="col-4 underline-slogan"> </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="row justify-content-center align-items-center m-0 intra-padding flex-row-reverse " style="">
+
+
+<div class="cs-two-cols col-md-5 intra-padding description-small blue-text" style="text-align: right;">
+
+        <p>Be part of the new smart home era, <strong>Matter</strong>. Let us help you to make your devices <strong>Matter-compatible</strong>. Connect with Anne to schedule a free meeting!</p>
+
+        <div class="row justify-content-end intra-padding">
+<div class="newsletter bottom">
+<div class="wrapper">
+
+<script type="text/javascript">/*<![CDATA[*/var a=new Array(".rocks", "stone", "crown", "@", "ne", "an");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=Lets talk about matter' class='btn' style=\"text-align: center !important; align-self: flex-end; border-radius: 0.25rem; padding: .375rem 1.25rem; font-family: Lato, sans-serif; font-size: 1rem; letter-spacing: 1px; color: white !important; background-color: #ff8400; box-shadow: 3px 3px 4px rgb(0 0 0 / 16%); text-decoration: none\">Schedule a meeting</a>");/*]]>*/</script>
+<noscript>Schedule a meeting</noscript>
+
+</div>
+</div>
+</div>
+
+      </div>
+
+
+
+<div class="col-md-5 intra-padding align-items-center">
+
+
+
+
+<img src="/images/matter/annevanrossum.png" alt="Anne van Rossum" />
+
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="footer">
+    <br />
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <div class="row">
+                    <div class="col-sm-4 text-center">
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            OEM
+                        </p>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled">
+                                
+      	    <li><a href="/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Home</a></li>
+      	    <li><a href="/matter" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Matter</a></li>
+      	    <li><a href="/oem/wireless-connectivity/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Wireless connectivity</a></li>
+      	    <li><a href="/oem/embedded-development/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Embedded development</a></li>
+      	    <li><a href="/oem/analog-electronics/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Analog electronics</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            ABOUT US
+                        </p>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled">
+                                
+      	    <li><a href="/about-us/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">About us</a></li>
+      	    <li><a href="/projects/" class='footer-text-element' style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">Projects</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 text-center">
+                        <p style="text-align: center; font-family: Lato, sans-serif; font-size: 1rem; font-style: italic; font-weight: bold; color: white; width: 100%; padding: 1.2rem 0; margin: 0;">
+                            CONTACT
+                        </p>
+                        <div style="display:inline-block;">
+                            <ul class="list-unstyled" style="text-align: left">
+                                <li>
+                                    <a href="https://crownstone-labs.com/contact" class="footer-text-element" style="text-align: center !important; align-self: center; font-family: Lato, sans-serif; font-size: 0.9rem; font-style: italic; padding: 0; color:#dddddd !important; text-decoration: none">
+                                        <i class="el el-group footer"></i>Contact us
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br/>
+
+        <div class="row">
+            <div class="col-sm-12 text-center colofon">
+                <div class="accent" style="margin: 0;">Crownstone Labs</div>
+                <p style="margin: 0;">Stationsplein 45 d1.118</p>
+                <p style="margin: 0;">3013 AK Rotterdam, The Netherlands</p>
+                <p style="margin: 0;">0031103073955 / 010-3073955</p>
+                <br/>
+                <p style="margin: 0;">
+                This site uses no external services.
+                </p>
+            </div>
+        </div>
+    </div>
+    <br />
+</div>
+
+
+<script async defer src="https://cdn.simpleanalytics.io/hello.js"></script>
+<noscript><img src="https://api.simpleanalytics.io/hello.gif" alt=""></noscript>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-17146802-16', 'auto');
+  ga('set', 'allowAdFeatures', false);
+  ga('send', 'pageview');
+</script>
+
+
+
+<!-- in debug mode, Google Chrome complains about .map files, do not worry -->                    
+<script type="text/javascript" src="/assets/themes/flat/resources/jquery/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="/assets/themes/flat/resources/bootstrap/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<!--[if gt IE 9]>
+<script type="text/javascript" src="/assets/themes/flat/resources/bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+<![endif]-->
+
+
+</body>
+</html>
+
