@@ -2,8 +2,8 @@
 layout: page
 title: Matter
 header: Pages
-description: "Meet your matter-specialist: Crownstone Labs"
-keywords: "matter, smart home devices, matter protocol, matter standard, matter-ready, matter-compatible"
+description: "Meet your Matter-specialist: Crownstone Labs"
+keywords: "Matter, smart home devices, Matter protocol, Matter standard, Matter-ready, Matter-compatible"
 group: [navigation, navigation-oem-footer]
 tags: [smart home, smart plug, switch, dimmer, power monitor, bluetooth, ble, bluetooth low energy, indoor positioning]
 background-image: matter.jpeg
@@ -11,19 +11,19 @@ kramdown:
   parse_block_html: true
 permalink: /matter
 reasons: 
-  - description: "By the end of 2022 already 32 companies have announced matter-compatible products"
+  - description: "Over 200 companies created the standard. In 2022 all tech giants will have Matter-compatible hubs."
     image: /images/matter/companies.png
     image-alt: companies
-  - description: "190 products are in the process of certification or have already received the CSA’s official blessing"
+  - description: "Over 190 products are already certified or almost certified."
     image: /images/matter/products.png
-    image-alt: matter products
-  - description: "ABI Research estimates that  more than 5.5 billion Matter-compliant devices will be shipped between 2022 and 2030"
+    image-alt: Matter products
+  - description: "More than 5.5 billion Matter-compliant devices will be shipped in the coming 7 years (ABI Research)"
     image: /images/matter/shipped.png
     image-alt: shipped
-  - description: "According to ABI Research, smart home hardware revenues will surpass US$30 billion worldwide, up 15% over 2021 spending"
+  - description: "Smart home hardware revenues will surpass $30 billion worldwide (ABI Research)"
     image: /images/matter/revenue.png
     image-alt: revenue
-  - description: "The number of active households in the smart home market is expected to amount to 573.7 million users by 2026. This translates into a household penetration of 25% by 2026"
+  - description: "The number of smart home users will reach 573.7 million in 3 years: household penetration of 25% by 2026."
     image: /images/matter/households.png
     image-alt: households
 ---
@@ -46,7 +46,7 @@ Get ready for the future of smart homes
 
 {% include snippets/centered-text-home-begin background='light'%}
 
-Crownstone makes your devices **matter-compatible**
+Crownstone makes your devices **Matter-compatible**
 
 {% include snippets/centered-text-home-end %}
 
@@ -57,7 +57,7 @@ Crownstone makes your devices **matter-compatible**
 
 {% include snippets/slogan-begin background='blue' %}
 
-What's matter?
+What's Matter?
 
 {% include snippets/slogan-end %}
 
@@ -66,9 +66,9 @@ What's matter?
 
 {% include snippets/two-cols-text-img-begin background="blue"%}
 
-# Matter is the beginning of a new smart home era.
+# Matter starts a new smart home era
 
- More than **30 companies** have already announced some of their devices to be matter-ready, which means that several smart home products must be matter-compatible by the end of 2023 to continue competing in the market.
+The current smart home solutions do not work well together, keeping the overall market small. This however changed in 2022: The Matter standard makes millions of smart home products work together. This means that there is a small time window to conquer the market for a device category. A smart home product must be Matter-compatible **before the holiday season of 2023** to be competitive in the market. No time to lose! The time to build is now!
 
 {% include snippets/two-cols-text-img-end background="blue" img='/images/matter/smart-home.jpeg' img-alt='smart home'%}
 
@@ -80,12 +80,13 @@ What's matter?
 
 # Matter brings together many of the biggest smart home players
 
-Those include Apple, Amazon, Google, and Samsung. If you want your products to be interoperable with the major smart home ecosystems, then matter is the way to go. While you focus on adding new features and improving the design of your product, **Crownstone’s firmware experts** make your devices **matter-compatible**.
+Matter is the new smart home standard and driven by all major players. **Amazon** will push the update in 2022 to all 17 Echo devices. All new **Google** Nest and Home products have it built-in. **Apple** HomePod, Apple TV, watchOS, iPadOS are all Matter-certified. **Samsung** hubs are Matter controllers. Smart home products must be Matter-compatible by the end of 2023 to continue competing in the market.
 
-{% include snippets/two-cols-text-img-end background="blue" img='/images/matter/matter-players.jpeg' img-alt='matter players' %}
+**Crownstone's firmware experts** make your devices **Matter-compatible**.
+
+{% include snippets/two-cols-text-img-end background="blue" img='/images/matter/matter-players.jpeg' img-alt='Matter players' %}
 
 {% include snippets/full-width-container-end %}
-
 
 
 {% include snippets/slogan-begin %}
@@ -100,14 +101,14 @@ Our expertise
 
 {% include snippets/column-frame-begin img='/images/matter/protocols.png' img-alt='protocols' title="Wireless protocols"%}
 
-Such as Matter, Bluetooth LE, Bluetooth mesh, Thread, NFC, Wi-Fi, and more.
+Matter builds on top of protocols such as Thread, Wi-Fi, and Bluetooth LE, all of which we know the ins and outs.
 
 {% include snippets/column-frame-end %}
 
 
 {% include snippets/column-frame-begin img='/images/matter/embedded.png' img-alt='embedded' title="Embedded development"%}
 
-DFU FOTA, bootloaders, embedded systems, mesh firmware, ...
+To build Matter-based products fast, expertise in Matter-supporting RTOS (e.g. Zephyr), firmware updates over the air, mesh network expertise, etc. is all paramount to a robust product line for years to come.
 
 {% include snippets/column-frame-end %}
 
@@ -120,15 +121,14 @@ DFU FOTA, bootloaders, embedded systems, mesh firmware, ...
 
 {% include snippets/column-frame-begin img='/images/matter/security.png' img-alt='security' title="Security"%}
 
-Encryption, 
-Cybersecurity, ...
+Matter comes with encryption in place, but to adhere to the future Cyber Resilience Act it's important to have in-depth knowledge on potential vulnerabilities.
 
 {% include snippets/column-frame-end %}
 
 
-{% include snippets/column-frame-begin img='/images/matter/nordic.png' img-alt='microcontrollers' title="Microcontrollers"%}
+{% include snippets/column-frame-begin img='/images/matter/nrf52840.png' img-alt='microcontrollers' title="Microcontrollers"%}
 
-Such as nRF52 series, ESP32, ...
+Matter requires embedded expertise of chipsets such as the Nordic nRF52840, the SiLabs EFR32MG21/24 series, the Espressif ESP32 series, all within our portfolio of microcontrollers we've worked with.
 
 {% include snippets/column-frame-end %}
 
@@ -142,7 +142,7 @@ Such as nRF52 series, ESP32, ...
 
 {% include snippets/slogan-begin background='blue' %}
 
-Why become matter-compatible now?
+Why become Matter-compatible now?
 
 {% include snippets/slogan-end %}
 
@@ -151,7 +151,7 @@ Why become matter-compatible now?
 
 {% include snippets/centered-text-home-begin background='dark'%}
 
-Matter is the next-gen **smart home standard**. It solves several smart home pain points while providing interoperability between devices and platforms. Check the statistics below to get an idea of the importance of matter for the new smart home era. 
+Matter is the next-gen **smart home standard**. It solves several smart home pain points while providing interoperability between devices and platforms. Check the statistics below to get an idea of the importance of Matter for the new smart home era.
 
 {% include snippets/centered-text-home-end %}
 
@@ -164,7 +164,7 @@ Matter is the next-gen **smart home standard**. It solves several smart home pai
 
 {% include snippets/slogan-begin %}
 
-Why Crownstone? 
+Why Crownstone?
 
 {% include snippets/slogan-end %}
 
@@ -173,53 +173,46 @@ Why Crownstone?
 
 {% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
 
-### Expertise
+### Crownstone expertise
 
+The Crownstone team has the right expertise to work with **Matter**. We not only have developed Matter-compatible products in-house, but can tap into our deep knowledge on wireless protocols to embedded development and encryption in general.
 
-We have the right expertise to work with **matter**. From wireless protocols to embedded development and encryption. 
- 
 {% include snippets/two-cols-centered-text-img-end img='/images/matter/expertise.png' img-alt='expertise' %}
 
 {% include snippets/full-width-container-end %}
-
-
 
 {% include snippets/full-width-container-begin%}
 
 {% include snippets/two-cols-centered-text-img-begin %}
 
-### Firmware projects
+### Crownstone projects
 
-We have helped with firmware challenges to companies such as [Athom B.V](https://homey.app/en-us/) and [Gociety](https://www.golivehealth.nl/en/).
- 
-{% include snippets/two-cols-centered-text-img-end img='/images/matter/homey.png' img-alt='homey' %}
+Crownstone developers have experience with collaboration on firmware projects with external companies. At [Athom B.V](https://homey.app/en-us/), the **number one smart home hub** in the Netherlands, Crownstone has a significant role within the firmware development for their new product, the **Homey Pro**, coming out in 2023. For [Gociety](https://www.golivehealth.nl/en/) Crownstone developed together with Fraunhofer firmware which goes far beyond commercial offerings in the sense of **wireless radar**.
+
+{% include snippets/two-cols-centered-text-img-end img='/images/matter/homey.png' img-alt='Athom Homey' %}
 
 {% include snippets/full-width-container-end %}
-
-
 
 {% include snippets/full-width-container-begin%}
 
 {% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
 
-### Specialized
+### Crownstone's specialization
 
-We are specialized in smart home products since we also developed smart products ourselves.
- 
+Crownstone is specialized in **smart home products**. This means we are attuned to user preferences in this space. This ranges from expected speed of interaction, security considerations, and ease of setup.
+
 {% include snippets/two-cols-centered-text-img-end img='/images/matter/specialized.png' img-alt='smart home' %}
 
 {% include snippets/full-width-container-end %}
-
-
 
 {% include snippets/full-width-container-begin%}
 
 {% include snippets/two-cols-centered-text-img-begin %}
 
-### Team of experts
+### Crownstone's team
 
-Getting software developers is an arduous and time-consuming task. We have a **team of experts** that can make your devices matter-compatible and reduce their time-to-market. 
- 
+Hiring expert software developers is time-consuming and expensive. Crownstone has a **team of experts** with a skillsetthat is high in demand. To have such a team in place means that you have a flying start and will reduce your time-to-market largely.
+
 {% include snippets/two-cols-centered-text-img-end img='/images/matter/team.png' img-alt='experts' %}
 
 {% include snippets/full-width-container-end %}
@@ -229,15 +222,13 @@ Getting software developers is an arduous and time-consuming task. We have a **t
 
 {% include snippets/two-cols-centered-text-img-begin text-alignment='right' %}
 
-### Dutch company
+### Crownstone is a Eureopean company
 
-Crownstone is based in the Netherlands which is important for **Dutch** and **European** mainland customers, especially to reduce risks concerning cybersecurity. 
- 
+Crownstone is based in the Netherlands. This is important with respect to sensibilities of the European customer with respect to user interaction and security. It also means we will operate under European laws such as GDPR and the Cyber Resilience Act by default.
+
 {% include snippets/two-cols-centered-text-img-end img='/images/matter/european.png' img-alt='european' %}
 
 {% include snippets/full-width-container-end %}
-
-
 
 {% include snippets/slogan-begin background='blue' %}
 
@@ -250,9 +241,9 @@ Case study
 
 {% include snippets/two-cols-text-img-begin background="blue"%}
 
-# Homey project
+# Homey Pro
 
-Crownstone collaborated with Athom B.V to help solve firmware challenges during the development of the newly released [Homey Pro](https://homey.app/en-us/). Our team of embedded development experts contributed to speeding the firmware development for this smart home hub.
+Crownstone collaborated with Athom on the new [Homey Pro](https://homey.app/en-us/). The details of this collaboration cannot be disclosed, but our team of embedded development engineers had a large impact on the firmware development of this very popular smart home hub.
 
 {% include snippets/two-cols-text-img-end background="blue" img='/images/matter/case-homey.png' img-alt='firmware homey'%}
 
@@ -275,9 +266,9 @@ Get in contact
 
 {% include snippets/two-cols-text-img-begin text-alignment='right'%}
 
-Be part of the new smart home era, **Matter**. Let us help you to make your devices **matter-compatible**. Connect with Anne to schedule a free meeting!
+Be part of the new smart home era, **Matter**. Let us help you to make your devices **Matter-compatible**. Connect with Anne to schedule a free meeting!
 
-{% include snippets/two-cols-text-img-end img='/images/matter/annevanrossum.jpg' img-alt='anne van rossum' btn='true' btn-contact='anne' btn-text='Schedule a meeting'%}
+{% include snippets/two-cols-text-img-end img='/images/matter/annevanrossum.png' img-alt='Anne van Rossum' btn='true' btn-contact='anne' btn-text='Schedule a meeting'%}
 
 
 
